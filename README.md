@@ -1,213 +1,110 @@
-# Pianist Portfolio Website
-![Pianist Portfolio Image](mockup.png "website mockup")
+![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome to the README file for the Pianist Portfolio website. This single-page website showcases the informations of a pianist in an elegant and functional design. The website is divided into four main sections: Header, About, Lessons, and Contact Form.
+Welcome USER_NAME,
 
-[Live link](https://aria-vero-s.github.io/pianist/).
+This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-## Table of Contents
+You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Customization](#customization)
-- [License](#license)
-- [Contact](#contact)
+## Gitpod Reminders
+
+To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+
+`python3 -m http.server`
+
+A blue button should appear to click: _Make Public_,
+
+Another blue button should appear to click: _Open Browser_.
+
+To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+
+A blue button should appear to click: _Make Public_,
+
+Another blue button should appear to click: _Open Browser_.
+
+In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+
+To log into the Heroku toolbelt CLI:
+
+1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
+2. Scroll down to the *API Key* and click *Reveal*
+3. Copy the key
+4. In Gitpod, from the terminal, run `heroku_config`
+5. Paste in your API key when asked
+
+You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+
+------
+
+## Release History
+
+We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+
+**September 20 2023:** Update Python version to 3.9.17.
+
+**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+
+**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+
+**July 2 2021:** Remove extensions that are not available in Open VSX.
+
+**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+
+**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+
+**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+
+**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+
+**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+
+**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+
+**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+
+**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+
+**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+
+**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+
+**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+
+------
+
+## FAQ about the uptime script
+
+**Why have you added this script?**
+
+It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+
+**How will this affect me?**
+
+For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+
+- An ID that is randomly generated each time the workspace is started.
+- The current date and time
+- The workspace status of “started” or “running”, which is sent every 5 minutes.
+
+It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+
+**So….?**
+
+We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+
+**Can I opt out?**
+
+Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+
+```
+pkill uptime.sh
+rm .vscode/uptime.sh
+```
+
+**Anything more?**
+
+Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
 ---
 
-## Features
-
-### 1. Header
-- A dynamic navbar that adjusts its appearance based on the user's scroll position.
-
-- **Transparent Background at the Top:** When the user is at the top of the page, the navbar has a completely transparent background. This adds a touch of elegance to the design.
-
-![Pianist Portfolio Image](navbar1.png "navbar")
-
-- **Semi-Transparent Dark Background on Scroll:** As the user scrolls down the page, the navbar transitions to a semi-transparent dark background. This subtle design change helps improve the navbar's visibility and ensures that navigation options remain accessible, especially against light content backgrounds.
-
-![Pianist Portfolio Image](navbar2.png "navbar")
-
-- The nabar is also responsive and adjusts to different screen sizes:
-
-![Pianist Portfolio Image](mobile-menu.png "mobile menu")
-![Pianist Portfolio Image](mobile-activemenu.png "mobile menu active")
-
-- A full-page photograph of the pianist as the background.
-- Three buttons for translating the website into English, French, and Italian using JavaScript.
-
-```
-  const translateFrenchButton = document.getElementById('translateFrench');
-  translateFrenchButton.addEventListener('click', function() {
-    updateContent('french', 'about');
-    updateContent('french', 'lessons');
-    updateContent('french', 'navbar');
-    updateContent('french', 'contact');
-  });
-```
-
-- Translations are managed through JavaScript objects.
-
-```
-const translations = {
- english: {
-  about: {
-   h1: "Hello, I'm Paolo",
-   p1: "(paragraph 1)",
-   p2: "(paragraph 2)"
-  },
- },
-},
-```
-
-### 2. About
-- A biography section with information about the pianist.
-- A music player for showcasing the pianist's music, with playback controls.
-- Music player functionality implemented using JavaScript.
-
-```
-    playPauseButton.addEventListener('click', () => {
-        if (isPlaying) {
-            audioPlayer.pause();
-            playPauseButton.textContent = '▶';
-        } else {
-            audioPlayer.play();
-            playPauseButton.textContent = '❚❚';
-        }
-        isPlaying = !isPlaying;
-    });
-```
-
-### 3. Lessons
-- A section providing text and a list of lesson details.
-- Easily customizable to add or modify lesson information.
-
-### 4. Contact Form
-- A functional contact form using [Email.js](https://www.emailjs.com/) for sending messages to the pianist's email.
-- Users can fill out the form to contact the pianist.
-
-```
-.sendForm("service_id", "template_id", contactForm)
-      .then(
-        function(response) {
-          console.log("Email sent successfully", response);
-          successMessage.style.display = "block";
-        },
-        function(error) {
-          console.log("Email sending failed", error);
-          console.error(error);
-
-          // Additional debugging information:
-          if (error.response) {
-            console.log("Response data:", error.response.data);
-            console.log("HTTP status:", error.response.status);
-            console.log("Headers:", error.response.headers);
-          }
-          errorMessage.style.display = "block";
-        }
-      );
-```
-
-### Footer
-- A footer section containing links to the pianist's social profiles. The social link icons are sourced from [FontAwesome](https://fontawesome.com/), a popular and widely-used icon library.
-
-- A link to the developer's GitHub account in the copyright section.
-
-### Design
-- Dark theme with light purple highlights for an elegant and visually appealing look.
-
-![Color Palette](palette.png "color palette")
-```
-- antiflash-white: #f0f1f3;
-- platinum: #d8dbe2;
-- periwinkle: #c6b7ff;
-- charcoal: #373f51;
-- jet: #333333;
-```
-
-- The fonts have been applied strategically to create a cohesive and elegant design.
-
-- **'Lato' for General Text**: The 'Lato' font, a versatile and legible sans-serif typeface, is used for general text throughout the website.
-
-- **'Playfair Display' for Headings**: 'Playfair Display', a sophisticated serif font, is used for headings and titles.
-
-- **'VVDS london oatmeal' for Logo**: The 'VVDS london oatmeal' font is reserved exclusively for the website's logo.
-Please note that 'London Oatmeal' is a Demo Font provided for **PERSONAL USE** only. To acquire the full version and a commercial license for this font, please visit the following link: [Purchase 'London Oatmeal' Font](https://creativemarket.com/VintageVoyage/5079755-London-Oatmeal-%E2%80%A2-Stylish-Duo).
-```
-- font-family: 'Lato', sans-serif;
-- font-family: 'Playfair Display', serif;
-- font-family: 'VVDS london oatmeal';
-```
-
-### Image Credits
-
-The image used in this project, the full-page photograph of the pianist, were generously provided by the pianist himself.
-
-The favicon used in this project was also thoughtfully designed by Paolo Rubinacci, contributing to the website's unique visual identity.
-
-![Favicon](favicon.ico "favicon")
-
-Please note that these images are the intellectual property of Paolo Rubinacci, and any use or distribution of these images should be done with proper permission and attribution as necessary.
-
----
-
-## Technologies Used
-
-- HTML
-- CSS
-- JavaScript
-- [Email.js](https://www.emailjs.com/) for the contact form
-
----
-
-## Installation
-
-1. Clone this repository to your local machine:
-
-   ```bash
-   git clone https://github.com/your-username/pianist-portfolio-website.git
-    ```
-2. Open the project folder in your code editor.
-
-3. Customize the website content and design according to your preferences (see Customization section).
-
-## Customization
-
-You can easily customize the website to make it your own:
-
-- Modify the content in the About and Lessons sections by editing the HTML.
-- Change the color scheme and design by adjusting the CSS.
-- Update the translations in the Header section by modifying the JavaScript objects.
-- Connect the contact form to your email using [Email.js](https://www.emailjs.com/).
-
----
-
-## License
-
-This project is licensed under the MIT License.
-
-Copyright (c) 2023 Ariane Saulnier
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Pianist Portfolio'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
----
-
-## Contact
-
-If you have any questions, feedback, or need assistance, feel free to reach out:
-
-- Email: [ariane.saulnier@gmail.com](ariane.saulnier@gmail.com)
-- GitHub: [github.com/aria-vero-s](https://github.com/aria-vero-s)
-
-Your input and feedback is welcomed.
-
-Thank you for visiting Pianist Portfolio!
-
----
+Happy coding!
