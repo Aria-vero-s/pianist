@@ -1,24 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&family=Playfair+Display:ital,wght@0,400;0,900;1,400;1,900&display=swap");
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,500;1,6..96,600;1,6..96,700;1,6..96,800;1,6..96,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @font-face {
   font-family: 'VVDS london oatmeal';
   src: url('VVDS London Oatmeal-Sans.woff') format('woff');
 }
+=======
+>>>>>>> aaa46d3 (initial commit)
 
 /*
 font-family: 'Lato', sans-serif;
 font-family: 'Playfair Display', serif;
+<<<<<<< HEAD
 font-family: 'VVDS london oatmeal';
+=======
+>>>>>>> aaa46d3 (initial commit)
 */
 
 /*
 colors:
+<<<<<<< HEAD
 
 antiflash-white: #f0f1f3;
 platinum: #d8dbe2;
 periwinkle: #c6b7ff;
 jet: #333333;
+=======
+light-purple: #d8dbe2;
+powder-blue: #a9bcd0;
+aqua: #58a4b0;
+charcoal: #373f51;
+black: #1b1b1e;
+>>>>>>> aaa46d3 (initial commit)
 */
 
 * {
@@ -32,6 +46,7 @@ html {
 }
 
 body {
+<<<<<<< HEAD
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   margin: 0;
@@ -76,6 +91,12 @@ body {
     background-position: center;
     height: 100vh;
   }
+=======
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  background-color: #1b1b1e;
+  color: #d8dbe2;
+>>>>>>> aaa46d3 (initial commit)
 }
 
 section {
@@ -88,8 +109,13 @@ section {
 
 @media (max-width: 600px) {
     section {
+<<<<<<< HEAD
         margin: 40px;
         padding: 40px;
+=======
+        margin: 20px;
+        padding: 20px;
+>>>>>>> aaa46d3 (initial commit)
         text-align: left;
         width: 100%;
         margin: 0 auto;
@@ -99,26 +125,42 @@ section {
 header {
   background-image: url("header-image.jpg");
   background-size: cover;
+<<<<<<< HEAD
   background-position: center;
   text-align: center;
   padding: 20px 0;
+=======
+  background-position: bottom;
+  color: #d8dbe2;
+  text-align: center;
+  padding: 100px 0;
+>>>>>>> aaa46d3 (initial commit)
   height: 100vh;
 }
 
 h1 {
   font-family: "Playfair Display", serif;
+<<<<<<< HEAD
   color: #c6b7ff;
+=======
+  color: #58a4b0;
+>>>>>>> aaa46d3 (initial commit)
   padding-bottom: 30px;
   font-size: 2rem;
 }
 
 h2 {
   font-family: "Playfair Display", serif;
+<<<<<<< HEAD
   color: #c6b7ff;
+=======
+  color: #58a4b0;
+>>>>>>> aaa46d3 (initial commit)
   padding-bottom: 30px;
   font-size: 1.5rem;
 }
 
+<<<<<<< HEAD
 h2 a {
   color: #f0f1f3;
   transition: all 0.3s;
@@ -338,11 +380,142 @@ h2 a:hover {
 
 .navbar.active-bg {
   background-color: rgba(3, 3, 3, 0.7);
+=======
+h3 {
+  font-family: "Playfair Display", serif;
+  color: #58a4b0;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #58a4b0;
+  transition: all 0.3s;
+}
+
+.cta-button {
+  text-decoration: none;
+  color: #d8dbe2;
+  background-color: #1b1b1e;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: all 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #373f51;
+}
+
+/* navigation */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  z-index: 1000;
+  transition: background 0.3s ease;
+  font-family: "Lato", sans-serif;
+}
+
+.navbar.active {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  height: 60px;
+}
+
+.logo {
+  color: #d8dbe2;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+}
+
+.logo:hover {
+  color: #58a4b0;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        font-size: 1.5rem;
+    }
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #d8dbe2;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.nav-links a:hover {
+  color: #58a4b0;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #d8dbe2;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: transparent;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    left: 0;
+    line-height: 40px;
+    padding-bottom: 30px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+
+  .nav-links a {
+    color: #d8dbe2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .nav-links.active {
+    display: flex;
+    max-height: 300px;
+  }
+
+  .nav-links.active-bg {
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .burger {
+    display: block;
+  }
+>>>>>>> aaa46d3 (initial commit)
 }
 
 /* about section */
 
 .about-section {
+<<<<<<< HEAD
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -528,6 +701,38 @@ color: #f0f1f3;
   }
 }
 
+=======
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-image {
+    background-image: url("profile-image.jpg");
+    background-size: cover;
+    background-position: center;
+    height:300px;
+    width:300px;
+  }
+
+.about-paragraph {
+    padding:100px;
+    flex: 1;
+}
+
+@media (max-width: 600px) {
+    .about-section {
+        flex-direction: column;
+    }
+
+    .profile-image {
+        margin: 0 auto 20px;
+    }
+
+    .about-paragraph {
+        padding:0px;
+    }
+}
+>>>>>>> aaa46d3 (initial commit)
 /* contact  */
 
 .contact-form-container {
@@ -542,17 +747,29 @@ color: #f0f1f3;
 
 .contact-form input,
 .contact-form textarea {
+<<<<<<< HEAD
   background-color: rgba(3, 3, 3, 0.7);
+=======
+  background-color: transparent;
+>>>>>>> aaa46d3 (initial commit)
   color: #d8dbe2;
   width: 100%;
   padding: 10px;
   margin-top: 5px;
+<<<<<<< HEAD
   border: 1px solid #333;
+=======
+  border: 1px solid #58a4b0;
+>>>>>>> aaa46d3 (initial commit)
   border-radius: 5px;
 }
 
 .contact-form button {
+<<<<<<< HEAD
   background-color: #333;
+=======
+  background-color: #373f51;
+>>>>>>> aaa46d3 (initial commit)
   color: #d8dbe2;
   border: none;
   padding: 10px 20px;
@@ -563,6 +780,7 @@ color: #f0f1f3;
 }
 
 .contact-form button:hover {
+<<<<<<< HEAD
   color:#d8dbe2;
   background-color: #c6b7ff;
   transition: all 0.3s;
@@ -571,6 +789,12 @@ color: #f0f1f3;
 
 /* footer */
 
+=======
+  background-color: #58a4b0;
+  transition: background-color 0.3s;
+}
+
+>>>>>>> aaa46d3 (initial commit)
 footer {
   text-align: center;
   background-color: #333;
@@ -585,6 +809,7 @@ footer i {
 }
 
 footer i:hover {
+<<<<<<< HEAD
   color: #f0f1f3;
 }
 
@@ -598,6 +823,11 @@ footer a:hover {
   text-decoration: none;
   color: #f0f1f3;
   transition: all 0.3s;
+=======
+  font-size: 24px;
+  margin: 20px;
+  color: #58a4b0;
+>>>>>>> aaa46d3 (initial commit)
 }
 
 @media (max-width: 768px) {
@@ -621,4 +851,8 @@ footer a:hover {
         margin: 0px;
         padding: 10px;
       }
+<<<<<<< HEAD
     }
+=======
+    }
+>>>>>>> aaa46d3 (initial commit)
