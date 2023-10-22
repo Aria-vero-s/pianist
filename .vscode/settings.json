@@ -20,8 +20,14 @@
       "**/core.python*": true,
       "**/CVS": true
    },
-   "files.autoSave": "off",
-   "workbench.colorTheme": "Visual Studio Dark",
+   "files.autoSave": "afterDelay",
+   "workbench.colorTheme": "Visual Studio Light",
    "terminal.integrated.gpuAcceleration": "canvas",
-   "editor.defaultFormatter": "HookyQR.beautify"
+   "editor.defaultFormatter": "HookyQR.beautify",
+   "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   }
 }
