@@ -383,13 +383,13 @@ h2 a:hover {
 =======
 h3 {
   font-family: "Playfair Display", serif;
-  color: #58a4b0;
+  color: #c6b7ff;
   font-size: 1rem;
 }
 
 a {
   text-decoration: none;
-  color: #58a4b0;
+  color: #c6b7ff;
   transition: all 0.3s;
 }
 
@@ -435,12 +435,16 @@ a {
   color: #d8dbe2;
   transition: all 0.3s;
   text-transform: uppercase;
-  font-family: "Playfair Display", serif;
-  font-size: 2rem;
+  font-family: "VVDS London Oatmeal";
+  font-size: 1.7rem;
+  top:50%;
+  left:50%;
+  justify-content: center;
+  justify-items: center;
 }
 
 .logo:hover {
-  color: #58a4b0;
+  color: #c6b7ff;
 }
 
 @media (max-width: 600px) {
@@ -466,7 +470,7 @@ a {
 }
 
 .nav-links a:hover {
-  color: #58a4b0;
+  color: #c6b7ff;
 }
 
 .burger {
@@ -706,12 +710,13 @@ color: #f0f1f3;
     flex-direction: row;
 }
 
-.profile-image {
-    background-image: url("profile-image.jpg");
+#audio-player {
+    /* background-image: url("header-image2.jpg"); */
     background-size: cover;
     background-position: center;
     height:300px;
     width:300px;
+    /* filter: grayscale(100%); */
   }
 
 .about-paragraph {
