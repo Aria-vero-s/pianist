@@ -29,7 +29,32 @@ body {
   margin: 0;
   background-color: #1b1b1e;
   color: #d8dbe2;
+  background-image: url("header-image4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* This makes the background image fixed */
+  position: static; /* This is not needed, you can remove it */
 }
+
+/* Create a pseudo-element to add a dark overlay */
+body::before {
+  content: "";
+  filter: grayscale(100%);
+  background: rgba(0, 0, 0, 0.5); /* Adjust the opacity here (0.5 for 50% opacity) */
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1; /* Place it behind the content */
+}
+
+/* You can also add a blur effect to the background image */
+body::before {
+  /* ... previous styles ... */
+  backdrop-filter: blur(5px); /* Adjust the blur amount as needed */
+}
+
 
 section {
     margin: 100px;
@@ -52,7 +77,7 @@ section {
 header {
   background-image: url("header-image.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   color: #d8dbe2;
   text-align: center;
   padding: 100px 0;
@@ -61,27 +86,27 @@ header {
 
 h1 {
   font-family: "Playfair Display", serif;
-  color: #58a4b0;
+  color: #c6b7ff;
   padding-bottom: 30px;
   font-size: 2rem;
 }
 
 h2 {
   font-family: "Playfair Display", serif;
-  color: #58a4b0;
+  color: #c6b7ff;
   padding-bottom: 30px;
   font-size: 1.5rem;
 }
 
 h3 {
   font-family: "Playfair Display", serif;
-  color: #58a4b0;
+  color: #c6b7ff;
   font-size: 1rem;
 }
 
 a {
   text-decoration: none;
-  color: #58a4b0;
+  color: #c6b7ff;
   transition: all 0.3s;
 }
 
@@ -127,12 +152,16 @@ a {
   color: #d8dbe2;
   transition: all 0.3s;
   text-transform: uppercase;
-  font-family: "Playfair Display", serif;
-  font-size: 2rem;
+  font-family: "VVDS London Oatmeal";
+  font-size: 1.7rem;
+  top:50%;
+  left:50%;
+  justify-content: center;
+  justify-items: center;
 }
 
 .logo:hover {
-  color: #58a4b0;
+  color: #c6b7ff;
 }
 
 @media (max-width: 600px) {
@@ -158,7 +187,7 @@ a {
 }
 
 .nav-links a:hover {
-  color: #58a4b0;
+  color: #c6b7ff;
 }
 
 .burger {
@@ -210,12 +239,13 @@ a {
     flex-direction: row;
 }
 
-.profile-image {
-    background-image: url("profile-image.jpg");
+#audio-player {
+    /* background-image: url("header-image2.jpg"); */
     background-size: cover;
     background-position: center;
     height:300px;
     width:300px;
+    /* filter: grayscale(100%); */
   }
 
 .about-paragraph {
@@ -255,7 +285,7 @@ a {
   width: 100%;
   padding: 10px;
   margin-top: 5px;
-  border: 1px solid #58a4b0;
+  border: 1px solid #c6b7ff;
   border-radius: 5px;
 }
 
@@ -271,7 +301,7 @@ a {
 }
 
 .contact-form button:hover {
-  background-color: #58a4b0;
+  background-color: #c6b7ff;
   transition: background-color 0.3s;
 }
 
@@ -291,7 +321,7 @@ footer i {
 footer i:hover {
   font-size: 24px;
   margin: 20px;
-  color: #58a4b0;
+  color: #c6b7ff;
 }
 
 @media (max-width: 768px) {
@@ -316,3 +346,27 @@ footer i:hover {
         padding: 10px;
       }
     }
+
+    #audio-player {
+      display: flex;
+      flex-direction: column; /* Align children vertically */
+      justify-content: center;
+      align-items: center; /* Center content horizontally */
+      text-align: left; /* Adjust text alignment as needed */
+    }
+  
+  #waveform {
+      height: 100px;
+      background-color: #f0f0f0;
+      margin-top: 10px;
+  }
+  
+  #play-button {
+      margin-top: 10px;
+  }
+  
+  #soundcloud-link {
+      display: block;
+      margin-top: 10px;
+  }
+  
