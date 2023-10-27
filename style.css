@@ -3,11 +3,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,500;1,6..96,600;1,6..96,700;1,6..96,800;1,6..96,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @font-face {
+<<<<<<< HEAD
   font-family: 'VVDS london oatmeal';
   src: url('VVDS London Oatmeal-Sans.woff') format('woff');
 }
 =======
 >>>>>>> aaa46d3 (initial commit)
+=======
+  font-family: 'VVDS London Oatmeal';
+  src: url('vvds_london_oatmeal.woff2') format('woff2'),
+       url('vvds_london_oatmeal.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+>>>>>>> 406340c (Changed font)
 
 /*
 font-family: 'Lato', sans-serif;
@@ -203,18 +212,25 @@ h2 a:hover {
     margin-left:0px !important;
     margin-right:0px !important;
 <<<<<<< HEAD
+<<<<<<< HEAD
     border:none !important;
   }
   .translation-button:hover {
     background-color:#333333 !important;
 =======
     border: 1px solid;
+=======
+    border:none !important;
+>>>>>>> 406340c (Changed font)
   }
   .translation-button:hover {
     background-color:#000 !important;
     color:#c6b7ff !important;
+<<<<<<< HEAD
     border: 1px solid;
 >>>>>>> b760b5f (new navbar style)
+=======
+>>>>>>> 406340c (Changed font)
   }
 }
 
