@@ -216,7 +216,7 @@ h3 {
   }
 
   .navbar-logo a {
-    color:red !important;
+    color:#c6b7ff;
     text-decoration: none;
     transition: all 0.3s;
   }
