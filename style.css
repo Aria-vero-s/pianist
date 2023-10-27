@@ -277,7 +277,7 @@ h2 a:hover {
   }
 
   .navbar-logo a {
-    color:#c6b7ff;
+    color:red !important;
     text-decoration: none;
     transition: all 0.3s;
   }
