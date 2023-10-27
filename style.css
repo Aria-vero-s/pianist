@@ -174,11 +174,12 @@ h3 {
   .translation-button {
     margin-left:0px !important;
     margin-right:0px !important;
-    border: none;
+    border: 1px solid;
   }
   .translation-button:hover {
     background-color:#000 !important;
     color:#c6b7ff !important;
+    border: 1px solid;
   }
 }
 
