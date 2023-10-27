@@ -10,78 +10,86 @@
   </head>
   <body>
     <header>
-      <nav class="navbar">
-        <div class="container">
-          <div class="logo" href="#">Paolo Rubinacci</div>
-          <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <div class="burger">
-            <i class="fas fa-bars burger"></i>
-          </div>
-        </div>
+
+      <nav class="navbar" id="navbar">
+        <ul class="navbar-links-left">
+            <li><a href="#"></a></li>
+            <li><a href="#about"></a></li>
+        </ul>
+        <div class="navbar-logo" id="logo"><a href="#">Paolo Rubinacci</a></div>
+        <ul class="navbar-links-right">
+            <li><a href="#lessons"></a></li>
+            <li><a href="#contact"></a></li>
+        </ul>
+        <div class="menu-icon" id="menu-icon"><i class="fas fa-bars"></i></div>
       </nav>
+
+    <div class="translation-container">
+      <button class="translation-button" id="translateFrench">Français</button> | 
+      <button class="translation-button" id="translateItalian">Italiano</button> | 
+      <button class="translation-button" id="revertToEnglish">English</button>
+      </div>
     </header>
 
     <section id="about">
       <div class="about-section">
-        <!-- <div class="profile-image"></div> -->
-
-        <div class="about-paragraph">
-          <h1>Hello, I'm Paolo</h1>
-          <p>With over many years of dedicated practice and performance, I've honed my skills to transform the ivory keys into a medium for emotional expression and storytelling. My journey began at a young age, where I fell in love with the instrument's limitless possibilities. Today, I bring those possibilities to life, creating memorable and evocative musical experiences.</p>
-        </div>
-        <div id="audio-player">
-          <audio id="audio" controls>
-              <source src="your-audio-file.mp3" type="audio/mpeg">
-              Your browser does not support the audio element.
-          </audio>
-          <!-- <div id="waveform"></div> -->
-          <!-- <button id="play-button">Play</button> -->
-          <a id="soundcloud-link" href="https://soundcloud.com/your-track">Listen on SoundCloud</a>
+        <div id="about-paragraph">
+          <h1></h1>
+          <p></p>
+        </div>    
       </div>
+    </section>
+    <section>  
+      <div id="music-player">
+        <audio id="audio-player" src=""></audio>
+        <ul id="playlist">
+            <li data-src="aznavour-formidable.mp3">Aznavour - Formidable</li>
+            <li data-src="george-brassens.mp3">George Brassens - Song 2</li>
+            <li data-src="song3.mp3">Song 3</li>
+        </ul>
+        <div id="controls">
+            <button id="play-pause">&#9658;</button>
+            <button id="stop">&#9632;</button>
+            <button id="start-over">&#9198;</button>
+        </div>
+        <h2 style="margin-top:20px;">Listen on <a href="https://soundcloud.com/paolorubinacci" target="_blank">Soundcloud <i class="fab fa-soundcloud"></i></a></h2>
       </div>
     </section>
 
-    <section id="about">
-      <div class="about-section">
-
-      <script src="script.js"></script>
-      </div>
+    <section id="lessons">
+        <div id="lessons-paragraph">
+          <h1></h1>
+          <p></p>
+        </div>    
     </section>
 
     <section id="contact">
       <h1>Contact</h1>
-      <div class="contact-form-container">
-        <p>
-          Interested in working together? Fill out the form below, and I'll get
-          back to you as soon as possible!
-        </p>
-        <br />
+      <div class="contact-form-container" id="contact-form-container">
+        <p></p>
+        <br>
         <form class="contact-form">
-          <label for="name">Name:</label>
+          <label for="name"></label>
           <input type="text" id="name" name="name" required />
 
-          <label for="email">Email:</label>
+          <label for="email"></label>
           <input type="email" id="email" name="email" required />
 
-          <label for="message">Message:</label>
+          <label for="message"></label>
           <textarea id="message" name="message" rows="4" required></textarea>
 
-          <button type="submit">Submit</button>
+          <button type="submit"></button>
         </form>
       </div>
     </section>
 
     <footer>
       <div>
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-youtube"></i>
+        <a href="https://www.facebook.com/paolorubinacci" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/paolorubinacci" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/+447925503834" target="_blank"><i class="fab fa-whatsapp"></i></a>
       </div>
-      <p>@2023 aria-vero-s</p>
+      <p>@2023 <a href="https://www.github.com/aria-vero-s" target="_blank">aria-vero-s</a></p>
     </footer>
   </body>
 </html>
