@@ -91,9 +91,15 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     french: {
       about: {
+<<<<<<< HEAD
         h1: "Salut, je m'appelle Paolo",
         p1: "J'ai commencé à jouer du piano à Naples à l'âge de 9 ans, et j'ai perfectionné ma technique en suivant des études de musique classique en Italie, avant de partir en France pour étudier l'harmonie moderne et le jazz. À Paris, j'ai obtenu un master en musique et philosophie à l'École Normale Supérieure de Paris, où j’ai lancé un projet de recherche portant sur l'esthétique de la musique et le structuralisme français en partenariat avec l’École des Hautes Études en Sciences Sociales et le Conservatoire National Supérieur de Musique et de Danse de Paris. Entre-temps, je me suis orienté vers le jazz et j'ai commencé ma carrière de pianiste professionnel dans les rythmes enivrants de la Ville Lumière, où je me produisais régulièrement au cœur des légendaires cabarets de Montmartre et animais les cafés intimes nichés dans le Quartier Latin.",
         p2: "Mon style a évolué pour devenir un mélange harmonieux de traditions musicales, une fusion unique d'héritages musicaux italiens et français, entrelacés avec une profonde appréciation de la richesse rythmique de la musique de l’Amérique du Sud. Cette approche internationale de la musique, associée à un intérêt profond pour l'ethnomusicologie, m'a finalement conduit à diriger le premier atelier de Musiques du Monde à la célèbre Cité Internationale Universitaire de Paris, le plus grand campus d'étudiants étrangers d'Europe, où mes diverses influences ont culminé dans une célébration de la diversité musicale mondiale.",
+=======
+        h1: "Bonjour, ici Paolo",
+        p: "",
+        p: "J'ai commencé le piano à Naples à l'âge de 9 ans et j'ai perfectionné ma technique en étudiant la musique classique en Italie, avant de m'installer en France pour étudier l'harmonie moderne et le jazz. À Paris, j’ai complété une maîtrise de musique et de philosophie à l’École Normale Supérieure de Paris, avec un mémoire sur l’esthétique de la musique et le structuralisme français. Parallèlement, j'oriente mon jeu vers le jazz et débute ma carrière de pianiste professionnel dans les salles parisiennes. Embrassant un mélange harmonieux de traditions musicales, mon style a évolué pour devenir une fusion unique des héritages musicaux du sud de l'Italie et de la France, entrelacés avec une profonde appréciation de la richesse rythmique de la musique brésilienne. Cette approche internationale de la musique m’a finalement amené à diriger le premier atelier de musique du monde à la célèbre Cité Internationale Universitaire de Paris, le plus grand campus étudiant international d’Europe, où mes diverses influences ont abouti à une célébration de la diversité musicale mondiale."
+>>>>>>> 44366b9 (changed the font)
       },
       lessons: {
         h1: "Cours",
@@ -121,8 +127,13 @@ document.addEventListener('DOMContentLoaded', function() {
     italian: {
       about: {
         h1: "Ciao, sono Paolo",
+<<<<<<< HEAD
         p1: "Ho iniziato a suonare il pianoforte a 9 anni a Napoli, dove ho perfezionato la mia tecnica dedicandomi a studi classici prima di trasferirmi in Francia per studiare armonia moderna e jazz. A Parigi, ho ottenuto una laurea magistrale in filosofia e musica all’École Normale Supérieure, dando avvio ad un progetto di ricerca dedicato all’estetica musicale e allo strutturalismo francese condotto in partenariato con l’École des Hautes Études en Sciences Sociales ed il Conservatoire National Supérieur de Musique et de Danse de Paris. Parallelamente, mi sono concentrato sul jazz ed ho cominciato la mia carriera di pianista professionista nella vibrante scena musicale della capitale francese, esibendomi regolarmente negli iconici cabaret di Montmartre ed animando i caffè-concerto del Quartiere Latino.",
         p2: "Sviluppatosi al crocevia di differenti fonti d’ispirazione, il mio stile si è presto trasformato in un’originale fusione delle tradizioni musicali d’Italia e Francia, saldamente intrecciate con una profonda passione per la ricchezza del patrimonio ritmico dell’America Latina. Tale apertura internazionale, combinata con il mio interesse per l’etnomusicologia, ha così trovato coronamento nella mia attività didattica, portandomi a dirigere il primo laboratorio dedicato alle tradizioni musicali del mondo alla Cité Internationale Universitaire de Paris. Ospitata nel campus internazionale più grande d’Europa nel confronto diretto con più di 10 mila studenti di oltre 150 nazionalità differenti, la mia missione didattica è nata sotto il segno della diversità musicale globale."
+=======
+        p: "",
+        p: "Ho iniziato a suonare il pianoforte a Napoli all'età di 9 anni, e ho perfezionato la mia tecnica attraverso gli studi di musica classica in Italia, prima di trasferirmi in Francia per studiare armonia moderna e jazz. A Parigi ho conseguito un master in musica e filosofia presso l’École Normale Supérieure de Paris, con una tesi sull’estetica della musica e sullo strutturalismo francese. Nel frattempo mi sono concentrato sul jazz e ho iniziato la mia carriera come pianista professionista nei locali parigini. Abbracciando un'armoniosa miscela di tradizioni musicali, il mio stile si è evoluto fino a diventare una fusione unica delle eredità musicali dell'Italia meridionale e della Francia, intrecciate con un profondo apprezzamento per la ricchezza ritmica della musica brasiliana. Questo approccio internazionale alla musica mi ha portato alla fine a dirigere il primo workshop di World Music presso la rinomata Cité Internationale Universitaire de Paris, il più grande campus studentesco internazionale d’Europa, dove le mie diverse influenze sono culminate in una celebrazione della diversità musicale globale."
+>>>>>>> 44366b9 (changed the font)
       },
       lessons: {
         h1: "Lezioni",
