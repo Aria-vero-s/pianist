@@ -4,6 +4,7 @@
 
 @font-face {
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-family: 'VVDS london oatmeal';
   src: url('VVDS London Oatmeal-Sans.woff') format('woff');
 }
@@ -13,6 +14,11 @@
   font-family: 'VVDS London Oatmeal';
   src: url('vvds_london_oatmeal.woff2') format('woff2'),
        url('vvds_london_oatmeal.woff') format('woff');
+=======
+  font-family: 'vvds_london_oatmealsans';
+  src: url('vvds_london_oatmeal-sans-webfont.woff2') format('woff2'),
+       url('vvds_london_oatmeal-sans-webfont.woff') format('woff');
+>>>>>>> cf820c8 (change font)
   font-weight: normal;
   font-style: normal;
 }
