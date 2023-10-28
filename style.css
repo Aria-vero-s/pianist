@@ -405,15 +405,21 @@ h2 a:hover {
 /* Styles for the active class (darker navbar) */
 .navbar.active {
 <<<<<<< HEAD
+<<<<<<< HEAD
   z-index: 1000;
   background-color: rgba(3, 3, 3, 0.7);
 =======
   background-color: rgba(0, 0, 0, 0.8);
 >>>>>>> 935139d (Added dark navbar background effect)
+=======
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.7);
+>>>>>>> 3043e13 (navbar style adjustments)
   transition: all 0.3s;
 }
 
 .navbar.active-bg {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(3, 3, 3, 0.7);
 =======
@@ -553,6 +559,9 @@ a {
 =======
   background-color: rgba(0, 0, 0, 0.8);
 >>>>>>> 935139d (Added dark navbar background effect)
+=======
+  background-color: rgba(0, 0, 0, 0.7);
+>>>>>>> 3043e13 (navbar style adjustments)
 }
 
 /* about section */
