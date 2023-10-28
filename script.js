@@ -564,7 +564,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Use the emailjs.sendForm method to send the form
     emailjs
-      .sendForm("service_84td3jj", "template_6hv8p41", contactForm)
+      .sendForm("service_cm2dnwk", "template_s9h32mu", contactForm)
       .then(
         function(response) {
           console.log("Email sent successfully", response);
