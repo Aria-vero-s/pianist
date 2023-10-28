@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paolo Rubinacci</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css"/>
     <script src="script.js"></script>
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
   </head>
   <body>
@@ -70,7 +71,7 @@
       <div class="contact-form-container" id="contact-form-container">
         <p></p>
         <br>
-        <form class="contact-form">
+        <form class="contact-form" id="contact-form">
           <label for="name"></label>
           <input type="text" id="name" name="name" required />
 
@@ -80,9 +81,15 @@
           <label for="message"></label>
           <textarea id="message" name="message" rows="4" required></textarea>
 
-          <button type="submit"></button>
+          <button type="submit" id="send-email-button"></button>
         </form>
       </div>
+      <div id="success-message" style="display: none;">
+        Message sent! / Message envoyé! / Messaggio inviato!
+      </div>
+      <div id="error-message" style="display: none;">
+        Error! / Erreur! / Errore!
+      </div>      
     </section>
 
     <footer>

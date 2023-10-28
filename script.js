@@ -269,32 +269,37 @@ document.addEventListener('DOMContentLoaded', function() {
 // Email configuration
 
 document.addEventListener('DOMContentLoaded', function() {
-  // Initialize EmailJS with your service ID
-emailjs.init("service_djf8d02"); // Replace with your actual service ID
+  emailjs.init("BRInTh0xHPku6Lr0u");
 
-// Add an event listener to the form for form submission
-document.getElementById("contact-form").addEventListener("submit", function(event) {
-  event.preventDefault();
+  console.log("DOMContentLoaded event fired");
+  const contactForm = document.getElementById("contact-form");
+  const successMessage = document.getElementById("success-message");
+  const errorMessage = document.getElementById("error-message");
 
-  // Get form data
-  const name = document.getElementById("name").value;
-  const email = document.getElementById("email").value;
-  const message = document.getElementById("message").value;
+  // Add a submit event listener to the form
+  contactForm.addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent the default form submission
 
-  // Send the email
-  emailjs.send("service_djf8d02", "template_id", {
-    from_name: name,
-    from_email: email,
-    message: message,
-  }).then(
-    function(response) {
-      console.log("Email sent successfully", response);
-      // You can display a success message to the user
-    },
-    function(error) {
-      console.log("Email sending failed", error);
-      // You can display an error message to the user
-    }
-  );
-});
+      // Get form data
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+
+    console.log("Form submitted");
+
+    // Use the emailjs.sendForm method to send the form
+    emailjs
+      .sendForm("service_djf8d02", "template_lv5j9eq", contactForm)
+      .then(
+        function(response) {
+          console.log("Email sent successfully", response);
+          successMessage.style.display = "block";
+        },
+        function(error) {
+          console.log("Email sending failed", error);
+          console.error(error);
+          errorMessage.style.display = "block";
+        }
+      );
+  });
 });
