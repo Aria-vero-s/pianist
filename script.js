@@ -322,6 +322,13 @@ document.addEventListener('DOMContentLoaded', function() {
         function(error) {
           console.log("Email sending failed", error);
           console.error(error);
+
+          // Additional debugging information:
+          if (error.response) {
+            console.log("Response data:", error.response.data);
+            console.log("HTTP status:", error.response.status);
+            console.log("Headers:", error.response.headers);
+          }
           errorMessage.style.display = "block";
         }
       );
