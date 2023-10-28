@@ -1,6 +1,30 @@
-//Function for mobile navbar
+// dark bg effect
 
 document.addEventListener("DOMContentLoaded", function() {
+  const burger = document.querySelector(".menu-icon");
+  const navLinks = document.querySelector(".navbar");
+
+  burger.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+  });
+
+  const navLinksList = document.querySelectorAll(".navbar");
+  navLinksList.forEach(link => {
+      link.addEventListener("click", () => {
+          navLinks.classList.remove("active");
+      });
+  });
+
+  window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+          document.querySelector(".navbar").classList.add("active");
+          navLinks.classList.add("active-bg");
+      } else {
+          document.querySelector(".navbar").classList.remove("active");
+          navLinks.classList.remove("active-bg");
+      }
+  });
+
     // Get references to the menu icon and navbar
     const menuIcon = document.getElementById("menu-icon");
     const navbar = document.getElementById("navbar");
