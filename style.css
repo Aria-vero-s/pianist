@@ -106,6 +106,7 @@ h2 {
 h2 a {
   color: #fff;
   transition: all 0.3s;
+  text-decoration: none;
 }
 
 h2 a:hover {
