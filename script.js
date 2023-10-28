@@ -524,7 +524,7 @@ playButton.addEventListener('click', () => {
 // Email configuration
 
 document.addEventListener('DOMContentLoaded', function() {
-  emailjs.init("BRInTh0xHPku6Lr0u");
+  emailjs.init("itnHyNd7JvizqyR1r");
 
   console.log("DOMContentLoaded event fired");
   const contactForm = document.getElementById("contact-form");
@@ -564,7 +564,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Use the emailjs.sendForm method to send the form
     emailjs
-      .sendForm("service_djf8d02", "template_lv5j9eq", contactForm)
+      .sendForm("service_84td3jj", "template_ug1n9rs", contactForm)
       .then(
         function(response) {
           console.log("Email sent successfully", response);
