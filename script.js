@@ -35,8 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
     english: {
       about: {
         h1: "Hello, I'm Paolo",
-        p: "I started playing the piano in Naples when I was 9, and I perfected my technique through classical music studies in Italy, before moving to France to study modern harmony and jazz. In Paris I completed a master’s degree in music and philosophy at the École Normale Supérieure de Paris, with a dissertation on the aesthetics of music and French structuralism. In the meantime, I focused my playing on jazz and started my career as a professional pianist amidst the intoxicating rhythms of the City of Light, where I performed regularly at the heart of Montmartre’s legendary cabarets and animated its intimate cafes nestled within the Latin Quarter.",
-        p: "Embracing a harmonious blend of musical traditions, my style evolved to be a unique fusion of Italian and French music legacies, interwoven with a deep appreciation for the rhythmic richness of African-American and Latin-American music. This international approach to music performance, combined with a deep-seated interest in ethnomusicology, eventually led me to direct the first World Music workshop at the renowned Cité Internationale Universitaire de Paris, Europe’s largest international student campus, where my diverse influences culminated into a celebration of global musical diversity."
+        p: "I started playing the piano in Naples when I was 9, and I perfected my technique through classical music studies in Italy, before moving to France to study modern harmony and jazz. In Paris I completed a master’s degree in music and philosophy at the École Normale Supérieure de Paris, with a dissertation on the aesthetics of music and French structuralism. In the meantime, I focused my playing on jazz and started my career as a professional pianist amidst the intoxicating rhythms of the City of Light, where I performed regularly at the heart of Montmartre’s legendary cabarets and animated its intimate cafes nestled within the Latin Quarter.Embracing a harmonious blend of musical traditions, my style evolved to be a unique fusion of Italian and French music legacies, interwoven with a deep appreciation for the rhythmic richness of African-American and Latin-American music. This international approach to music performance, combined with a deep-seated interest in ethnomusicology, eventually led me to direct the first World Music workshop at the renowned Cité Internationale Universitaire de Paris, Europe’s largest international student campus, where my diverse influences culminated into a celebration of global musical diversity."
       },
       lessons: {
         h1: "Lessons",
@@ -59,7 +58,6 @@ document.addEventListener('DOMContentLoaded', function() {
     french: {
       about: {
         h1: "Bonjour, ici Paolo",
-        p: "",
         p: "J'ai commencé le piano à Naples à l'âge de 9 ans et j'ai perfectionné ma technique en étudiant la musique classique en Italie, avant de m'installer en France pour étudier l'harmonie moderne et le jazz. À Paris, j’ai complété une maîtrise de musique et de philosophie à l’École Normale Supérieure de Paris, avec un mémoire sur l’esthétique de la musique et le structuralisme français. Parallèlement, j'oriente mon jeu vers le jazz et débute ma carrière de pianiste professionnel dans les salles parisiennes. Embrassant un mélange harmonieux de traditions musicales, mon style a évolué pour devenir une fusion unique des héritages musicaux du sud de l'Italie et de la France, entrelacés avec une profonde appréciation de la richesse rythmique de la musique brésilienne. Cette approche internationale de la musique m’a finalement amené à diriger le premier atelier de musique du monde à la célèbre Cité Internationale Universitaire de Paris, le plus grand campus étudiant international d’Europe, où mes diverses influences ont abouti à une célébration de la diversité musicale mondiale."
       },
       lessons: {
@@ -83,7 +81,6 @@ document.addEventListener('DOMContentLoaded', function() {
     italian: {
       about: {
         h1: "Ciao, sono Paolo",
-        p: "",
         p: "Ho iniziato a suonare il pianoforte a Napoli all'età di 9 anni, e ho perfezionato la mia tecnica attraverso gli studi di musica classica in Italia, prima di trasferirmi in Francia per studiare armonia moderna e jazz. A Parigi ho conseguito un master in musica e filosofia presso l’École Normale Supérieure de Paris, con una tesi sull’estetica della musica e sullo strutturalismo francese. Nel frattempo mi sono concentrato sul jazz e ho iniziato la mia carriera come pianista professionista nei locali parigini. Abbracciando un'armoniosa miscela di tradizioni musicali, il mio stile si è evoluto fino a diventare una fusione unica delle eredità musicali dell'Italia meridionale e della Francia, intrecciate con un profondo apprezzamento per la ricchezza ritmica della musica brasiliana. Questo approccio internazionale alla musica mi ha portato alla fine a dirigere il primo workshop di World Music presso la rinomata Cité Internationale Universitaire de Paris, il più grande campus studentesco internazionale d’Europa, dove le mie diverse influenze sono culminate in una celebrazione della diversità musicale globale."
       },
       lessons: {
@@ -269,3 +266,35 @@ document.addEventListener('DOMContentLoaded', function() {
     playSong(currentSongIndex);
 });
 
+// Email configuration
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Initialize EmailJS with your service ID
+emailjs.init("service_djf8d02"); // Replace with your actual service ID
+
+// Add an event listener to the form for form submission
+document.getElementById("contact-form").addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  // Get form data
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const message = document.getElementById("message").value;
+
+  // Send the email
+  emailjs.send("service_djf8d02", "template_id", {
+    from_name: name,
+    from_email: email,
+    message: message,
+  }).then(
+    function(response) {
+      console.log("Email sent successfully", response);
+      // You can display a success message to the user
+    },
+    function(error) {
+      console.log("Email sending failed", error);
+      // You can display an error message to the user
+    }
+  );
+});
+});
