@@ -313,7 +313,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Use the emailjs.sendForm method to send the form
     emailjs
-      .sendForm("service_84td3jj", "template_ug1n9rs", contactForm)
+      .sendForm("service_84td3jj", "template_6hv8p41", contactForm)
       .then(
         function(response) {
           console.log("Email sent successfully", response);
