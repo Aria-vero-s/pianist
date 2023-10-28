@@ -28,9 +28,13 @@
 font-family: 'Lato', sans-serif;
 font-family: 'Playfair Display', serif;
 <<<<<<< HEAD
+<<<<<<< HEAD
 font-family: 'VVDS london oatmeal';
 =======
 >>>>>>> aaa46d3 (initial commit)
+=======
+font-family: "VVDS London Oatmeal";
+>>>>>>> 77051e8 (cleaned the CSS)
 */
 
 /*
@@ -65,18 +69,36 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   margin: 0;
+<<<<<<< HEAD
   background-color: #333333;
   color: #f0f1f3;
 }
 
 /* Container for the background image */
 .background-image-container {
+=======
+  background-color: #1b1b1e;
+  color: #d8dbe2;
+  background-image: url("header-image4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: static;
+}
+
+/* dark blurry overlay */
+body::before {
+  content: "";
+  filter: grayscale(100%);
+  background: rgba(0, 0, 0, 0.5);
+>>>>>>> 77051e8 (cleaned the CSS)
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: -1;
+<<<<<<< HEAD
   background-image: url("header-image4.jpg");
   background-size: cover;
   background-position: center;
@@ -114,6 +136,11 @@ body {
 >>>>>>> aaa46d3 (initial commit)
 }
 
+=======
+  backdrop-filter: blur(5px);
+}
+
+>>>>>>> 77051e8 (cleaned the CSS)
 section {
     margin: 100px;
     padding: 100px;
@@ -910,6 +937,66 @@ footer a:hover {
       }
 <<<<<<< HEAD
     }
+<<<<<<< HEAD
 =======
     }
 >>>>>>> aaa46d3 (initial commit)
+=======
+
+/* audio player */
+
+#music-player {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000;
+}
+
+audio {
+    display: none; /* Hide the default audio element */
+}
+
+#playlist {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+#playlist li {
+    cursor: pointer;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: transparent;
+}
+
+#playlist li:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+#playlist li.active {
+  font-weight: 600;
+  color: #fff;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#music-player button {
+    color: #000;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#music-player button:hover {
+    background-color: #c6b7ff;
+}
+>>>>>>> 77051e8 (cleaned the CSS)
