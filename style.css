@@ -342,12 +342,13 @@ h3 {
 
 /* Styles for the active class (darker navbar) */
 .navbar.active {
-  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.7);
   transition: all 0.3s;
 }
 
 .navbar.active-bg {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 /* about section */
