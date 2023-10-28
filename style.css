@@ -12,6 +12,7 @@
 /*
 font-family: 'Lato', sans-serif;
 font-family: 'Playfair Display', serif;
+font-family: "VVDS London Oatmeal";
 */
 
 /*
@@ -22,21 +23,6 @@ aqua: #58a4b0;
 charcoal: #373f51;
 black: #1b1b1e;
 */
-
-/* .navbar-logo {
-  width: 300px;
-  transition: all 0.3s;
-  z-index: 1000;
-  color: #d8dbe2;
-  transition: all 0.3s;
-  text-transform: uppercase;
-  font-family: "VVDS London Oatmeal";
-  font-size: 1.7rem;
-}
-
-.navbar-logo:hover {
-  color: #c6b7ff;
-} */
 
 * {
   margin: 0;
@@ -57,29 +43,23 @@ body {
   background-image: url("header-image4.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; /* This makes the background image fixed */
-  position: static; /* This is not needed, you can remove it */
+  background-attachment: fixed;
+  position: static;
 }
 
-/* Create a pseudo-element to add a dark overlay */
+/* dark blurry overlay */
 body::before {
   content: "";
   filter: grayscale(100%);
-  background: rgba(0, 0, 0, 0.5); /* Adjust the opacity here (0.5 for 50% opacity) */
+  background: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: -1; /* Place it behind the content */
+  z-index: -1;
+  backdrop-filter: blur(5px);
 }
-
-/* You can also add a blur effect to the background image */
-body::before {
-  /* ... previous styles ... */
-  backdrop-filter: blur(5px); /* Adjust the blur amount as needed */
-}
-
 
 section {
     margin: 100px;
@@ -543,7 +523,7 @@ audio {
 }
 
 #playlist li:not(:last-child) {
-  border-bottom: 1px solid #ccc; /* Add a horizontal line */
+  border-bottom: 1px solid #ccc;
 }
 
 #playlist li.active {
