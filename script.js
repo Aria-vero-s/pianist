@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 935139d (Added dark navbar background effect)
 // dark bg effect
 
 document.addEventListener("DOMContentLoaded", function() {
