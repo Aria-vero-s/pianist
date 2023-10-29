@@ -3,8 +3,8 @@
 
 @font-face {
   font-family: 'vvds_london_oatmealsans';
-  src: url('vvds_london_oatmeal-sans-webfont.woff2') format('font/woff2'),
-       url('vvds_london_oatmeal-sans-webfont.woff') format('font/woff');
+  src: url('vvds_london_oatmeal-sans-webfont.woff2') format('woff2'),
+       url('vvds_london_oatmeal-sans-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -12,7 +12,7 @@
 /*
 font-family: 'Lato', sans-serif;
 font-family: 'Playfair Display', serif;
-font-family: "VVDS London Oatmeal";
+font-family: 'vvds_london_oatmealsans';
 */
 
 /*
@@ -216,7 +216,7 @@ h2 a:hover {
   .navbar-logo {
     transition: all 0.3s;
     text-transform: uppercase;
-    font-family: "VVDS London Oatmeal";
+    font-family: 'vvds_london_oatmealsans';
     font-size: 1.7rem;
   }
 
@@ -299,7 +299,7 @@ h2 a:hover {
   .navbar-logo {
     transition: all 0.3s;
     text-transform: uppercase;
-    font-family: "VVDS London Oatmeal";
+    font-family: 'vvds_london_oatmealsans';
     font-size: 1.7rem;
   }
 
