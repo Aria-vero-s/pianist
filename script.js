@@ -291,17 +291,17 @@ document.addEventListener('DOMContentLoaded', function() {
         audioPlayer.src = songSrc;
         audioPlayer.play();
         isPlaying = true;
-        playPauseButton.textContent = '❚❚'; // Pause icon
+        playPauseButton.textContent = '❚❚';
         currentSongIndex = index;
     }
 
     playPauseButton.addEventListener('click', () => {
         if (isPlaying) {
             audioPlayer.pause();
-            playPauseButton.textContent = '▶'; // Play icon
+            playPauseButton.textContent = '▶';
         } else {
             audioPlayer.play();
-            playPauseButton.textContent = '❚❚'; // Pause icon
+            playPauseButton.textContent = '❚❚';
         }
         isPlaying = !isPlaying;
     });
@@ -355,24 +355,24 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //     // Use the emailjs.sendForm method to send the form
 //     emailjs
-//       .sendForm("service_id", "template_id", contactForm)
-//       .then(
-//         function(response) {
-//           console.log("Email sent successfully", response);
-//           successMessage.style.display = "block";
-//         },
-//         function(error) {
-//           console.log("Email sending failed", error);
-//           console.error(error);
+      // .sendForm("service_id", "template_id", contactForm)
+      // .then(
+      //   function(response) {
+      //     console.log("Email sent successfully", response);
+      //     successMessage.style.display = "block";
+      //   },
+      //   function(error) {
+      //     console.log("Email sending failed", error);
+      //     console.error(error);
 
-//           // Additional debugging information:
-//           if (error.response) {
-//             console.log("Response data:", error.response.data);
-//             console.log("HTTP status:", error.response.status);
-//             console.log("Headers:", error.response.headers);
-//           }
-//           errorMessage.style.display = "block";
-//         }
-//       );
+      //     // Additional debugging information:
+      //     if (error.response) {
+      //       console.log("Response data:", error.response.data);
+      //       console.log("HTTP status:", error.response.status);
+      //       console.log("Headers:", error.response.headers);
+      //     }
+      //     errorMessage.style.display = "block";
+      //   }
+      // );
 //   });
 // });

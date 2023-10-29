@@ -1,4 +1,5 @@
 # Pianist Portfolio Website
+![Pianist Portfolio Image](mockup.png "website mockup")
 
 Welcome to the README file for the Pianist Portfolio website. This single-page website showcases the informations of a pianist in an elegant and functional design. The website is divided into four main sections: Header, About, Lessons, and Contact Form.
 
@@ -17,15 +18,65 @@ Welcome to the README file for the Pianist Portfolio website. This single-page w
 ## Features
 
 ### 1. Header
-- A responsive navbar that adjusts to different screen sizes.
+- A dynamic navbar that adjusts its appearance based on the user's scroll position.
+
+- **Transparent Background at the Top:** When the user is at the top of the page, the navbar has a completely transparent background. This adds a touch of elegance to the design.
+
+![Pianist Portfolio Image](navbar1.png "navbar")
+
+- **Semi-Transparent Dark Background on Scroll:** As the user scrolls down the page, the navbar transitions to a semi-transparent dark background. This subtle design change helps improve the navbar's visibility and ensures that navigation options remain accessible, especially against light content backgrounds.
+
+![Pianist Portfolio Image](navbar2.png "navbar")
+
+- The nabar is also responsive and adjusts to different screen sizes:
+
+![Pianist Portfolio Image](mobile-menu.png "mobile menu")
+![Pianist Portfolio Image](mobile-activemenu.png "mobile menu active")
+
 - A full-page photograph of the pianist as the background.
 - Three buttons for translating the website into English, French, and Italian using JavaScript.
+
+```
+  const translateFrenchButton = document.getElementById('translateFrench');
+  translateFrenchButton.addEventListener('click', function() {
+    updateContent('french', 'about');
+    updateContent('french', 'lessons');
+    updateContent('french', 'navbar');
+    updateContent('french', 'contact');
+  });
+```
+
 - Translations are managed through JavaScript objects.
+
+```
+const translations = {
+ english: {
+  about: {
+   h1: "Hello, I'm Paolo",
+   p1: "(paragraph 1)",
+   p2: "(paragraph 2)"
+  },
+ },
+},
+```
 
 ### 2. About
 - A biography section with information about the pianist.
 - A music player for showcasing the pianist's music, with playback controls.
 - Music player functionality implemented using JavaScript.
+
+```
+    playPauseButton.addEventListener('click', () => {
+        if (isPlaying) {
+            audioPlayer.pause();
+            playPauseButton.textContent = '▶';
+        } else {
+            audioPlayer.play();
+            playPauseButton.textContent = '❚❚';
+        }
+        isPlaying = !isPlaying;
+    });
+```
 
 ### 3. Lessons
 - A section providing text and a list of lesson details.
@@ -35,12 +86,54 @@ Welcome to the README file for the Pianist Portfolio website. This single-page w
 - A functional contact form using [Email.js](https://www.emailjs.com/) for sending messages to the pianist's email.
 - Users can fill out the form to contact the pianist.
 
+```
+.sendForm("service_id", "template_id", contactForm)
+      .then(
+        function(response) {
+          console.log("Email sent successfully", response);
+          successMessage.style.display = "block";
+        },
+        function(error) {
+          console.log("Email sending failed", error);
+          console.error(error);
+
+          // Additional debugging information:
+          if (error.response) {
+            console.log("Response data:", error.response.data);
+            console.log("HTTP status:", error.response.status);
+            console.log("Headers:", error.response.headers);
+          }
+          errorMessage.style.display = "block";
+        }
+      );
+```
+
 ### Footer
-- A footer section containing links to the pianist's social profiles.
-- A link to the pianist's GitHub account in the copyright section.
+- A footer section containing links to the pianist's social profiles. The social link icons are sourced from [FontAwesome](https://fontawesome.com/), a popular and widely-used icon library.
+
+- A link to the developer's GitHub account in the copyright section.
 
 ### Design
 - Dark theme with light purple highlights for an elegant and visually appealing look.
+
+![Color Palette](palette.png "color palette")
+- antiflash-white: #f0f1f3;
+- platinum: #d8dbe2;
+- periwinkle: #c6b7ff;
+- charcoal: #373f51;
+- jet: #333333;
+
+- The fonts have been applied strategically to create a cohesive and elegant design.
+
+- **'Lato' for General Text**: The 'Lato' font, a versatile and legible sans-serif typeface, is used for general text throughout the website.
+
+- **'Playfair Display' for Headings**: 'Playfair Display', a sophisticated serif font, is used for headings and titles.
+
+- **'VVDS london oatmeal' for Logo**: The 'VVDS london oatmeal' font is reserved exclusively for the website's logo.
+
+- font-family: 'Lato', sans-serif;
+- font-family: 'Playfair Display', serif;
+- font-family: 'VVDS london oatmeal';
 
 ---
 
@@ -94,8 +187,8 @@ THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 If you have any questions, feedback, or need assistance, feel free to reach out:
 
-- Email: [Your Email Address](ariane.saulnier@gmail.com)
-- GitHub: [Your GitHub Profile](https://github.com/aria-vero-s)
+- Email: [ariane.saulnier@gmail.com](ariane.saulnier@gmail.com)
+- GitHub: [github.com/aria-vero-s](https://github.com/aria-vero-s)
 
 Your input and feedback is welcomed.
 
