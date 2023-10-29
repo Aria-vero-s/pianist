@@ -8,6 +8,7 @@
 <<<<<<< HEAD
   font-family: 'VVDS london oatmeal';
   src: url('VVDS London Oatmeal-Sans.woff') format('woff');
+<<<<<<< HEAD
 }
 =======
 >>>>>>> aaa46d3 (initial commit)
@@ -35,6 +36,8 @@
 >>>>>>> 42b3831 (fixed font issue)
   font-weight: normal;
   font-style: normal;
+=======
+>>>>>>> e44197a (font)
 }
 >>>>>>> 406340c (Changed font)
 
@@ -407,8 +410,12 @@ h2 a:hover {
 >>>>>>> f124291 (font fix)
 =======
     font-family: 'VVDS london oatmeal';
+<<<<<<< HEAD
     font-size: 1.7rem;
 >>>>>>> 1d07f5e (font fix for mobile)
+=======
+    font-size: 2rem;
+>>>>>>> e44197a (font)
   }
 
   .navbar-logo a {
