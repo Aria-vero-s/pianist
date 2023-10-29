@@ -76,9 +76,10 @@ body {
 @media (max-width: 768px) {
   .background-image-container {
     background-size: cover;
+    background-position: center;
+    height: 100vh;
   }
 }
-
 
 section {
     margin: 100px;
