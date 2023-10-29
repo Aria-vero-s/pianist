@@ -75,6 +75,7 @@ body {
   font-weight: 200;
   margin: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #333333;
   color: #f0f1f3;
 }
@@ -83,20 +84,23 @@ body {
 .background-image-container {
 =======
   background-color: #1b1b1e;
+=======
+  background-color: #000;
+>>>>>>> 98eac14 (smaller screen adjustments)
   color: #d8dbe2;
-  background-image: url("header-image4.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  position: static;
 }
 
+<<<<<<< HEAD
 /* dark blurry overlay */
 body::before {
   content: "";
   filter: grayscale(100%);
   background: rgba(0, 0, 0, 0.5);
 >>>>>>> 77051e8 (cleaned the CSS)
+=======
+/* Container for the background image */
+.background-image-container {
+>>>>>>> 98eac14 (smaller screen adjustments)
   position: fixed;
   top: 0;
   right: 0;
@@ -104,14 +108,33 @@ body::before {
   left: 0;
   z-index: -1;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 98eac14 (smaller screen adjustments)
   background-image: url("header-image4.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+<<<<<<< HEAD
+=======
+}
+
+/* Dark blurry overlay */
+.background-image-container::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+>>>>>>> 98eac14 (smaller screen adjustments)
   filter: grayscale(100%);
   backdrop-filter: blur(5px);
 }
 
+<<<<<<< HEAD
 /* Dark blurry overlay */
 .background-image-container::before {
   content: "";
@@ -126,10 +149,13 @@ body::before {
   backdrop-filter: blur(5px);
 }
 
+=======
+>>>>>>> 98eac14 (smaller screen adjustments)
 /* smaller screens */
 @media (max-width: 768px) {
   .background-image-container {
     background-size: cover;
+<<<<<<< HEAD
     background-position: center;
     height: 100vh;
   }
@@ -146,6 +172,12 @@ body::before {
 }
 
 >>>>>>> 77051e8 (cleaned the CSS)
+=======
+  }
+}
+
+
+>>>>>>> 98eac14 (smaller screen adjustments)
 section {
     margin: 100px;
     padding: 100px;
