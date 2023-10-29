@@ -5,6 +5,7 @@
 @font-face {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-family: 'VVDS london oatmeal';
   src: url('VVDS London Oatmeal-Sans.woff') format('woff');
 }
@@ -18,6 +19,9 @@
   font-family: 'vvds_london_oatmealsans';
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+  font-family: 'VVDS london oatmeal';
+>>>>>>> 1d07f5e (font fix for mobile)
   src: url('vvds_london_oatmeal-sans-webfont.woff2') format('woff2'),
        url('vvds_london_oatmeal-sans-webfont.woff') format('woff');
 >>>>>>> cf820c8 (change font)
@@ -40,6 +44,7 @@ font-family: 'Playfair Display', serif;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 font-family: 'VVDS london oatmeal';
 =======
 >>>>>>> aaa46d3 (initial commit)
@@ -49,6 +54,9 @@ font-family: "VVDS London Oatmeal";
 =======
 font-family: 'vvds_london_oatmealsans';
 >>>>>>> 42b3831 (fixed font issue)
+=======
+font-family: 'VVDS london oatmeal';
+>>>>>>> 1d07f5e (font fix for mobile)
 */
 
 /*
@@ -387,6 +395,7 @@ h2 a:hover {
     transition: all 0.3s;
     text-transform: uppercase;
 <<<<<<< HEAD
+<<<<<<< HEAD
     font-family: 'VVDS london oatmeal';
 =======
     font-family: 'vvds_london_oatmealsans';
@@ -396,6 +405,10 @@ h2 a:hover {
 =======
     font-size: 1rem;
 >>>>>>> f124291 (font fix)
+=======
+    font-family: 'VVDS london oatmeal';
+    font-size: 1.7rem;
+>>>>>>> 1d07f5e (font fix for mobile)
   }
 
   .navbar-logo a {
@@ -479,10 +492,14 @@ h2 a:hover {
     transition: all 0.3s;
     text-transform: uppercase;
 <<<<<<< HEAD
+<<<<<<< HEAD
     font-family: 'VVDS london oatmeal';
 =======
     font-family: 'vvds_london_oatmealsans';
 >>>>>>> 42b3831 (fixed font issue)
+=======
+    font-family: 'VVDS london oatmeal';
+>>>>>>> 1d07f5e (font fix for mobile)
     font-size: 1.7rem;
   }
 
