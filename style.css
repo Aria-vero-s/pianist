@@ -210,7 +210,24 @@ h2 a {
 }
 
 h2 a:hover {
+<<<<<<< HEAD
   color: #c6b7ff;
+=======
+  color: #ccc;
+}
+
+.cta-button {
+  text-decoration: none;
+  color: #d8dbe2;
+  background-color: #1b1b1e;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: all 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #373f51;
+>>>>>>> 01f0e08 (added new translation sections)
 }
 
 .translation-container {
@@ -269,6 +286,17 @@ h2 a:hover {
 
 .translation-button:hover {
   background-color:#333333;
+}
+
+/* lessons */
+
+#lessons-paragraph ul {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+#lessons-paragraph li {
+  margin: 10px 0;
 }
 
 /* lessons */
@@ -590,6 +618,7 @@ a {
   background-color: rgba(0, 0, 0, 0.7);
 >>>>>>> 3043e13 (navbar style adjustments)
 }
+<<<<<<< HEAD
 
 /* about section */
 
@@ -813,6 +842,8 @@ color: #f0f1f3;
     }
 }
 >>>>>>> aaa46d3 (initial commit)
+=======
+>>>>>>> 01f0e08 (added new translation sections)
 /* contact  */
 
 .contact-form-container {
@@ -878,7 +909,69 @@ color: #f0f1f3;
   transition: background-color 0.3s;
 }
 
+<<<<<<< HEAD
 >>>>>>> aaa46d3 (initial commit)
+=======
+/* audio player */
+
+#music-player {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #000;
+}
+
+audio {
+  display: none; /* Hide the default audio element */
+}
+
+#playlist {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+#playlist li {
+  cursor: pointer;
+  margin: 5px 0;
+  padding: 5px;
+  background-color: transparent;
+}
+
+#playlist li:not(:last-child) {
+border-bottom: 1px solid #ccc;
+}
+
+#playlist li.active {
+font-weight: 600;
+color: #fff;
+}
+
+#controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#music-player button {
+  color: #000;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#music-player button:hover {
+  background-color: #c6b7ff;
+}
+
+/* footer */
+
+>>>>>>> 01f0e08 (added new translation sections)
 footer {
   text-align: center;
   background-color: #333;
@@ -937,6 +1030,7 @@ footer a:hover {
       }
 <<<<<<< HEAD
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     }
@@ -1000,3 +1094,5 @@ audio {
     background-color: #c6b7ff;
 }
 >>>>>>> 77051e8 (cleaned the CSS)
+=======
+>>>>>>> 01f0e08 (added new translation sections)
