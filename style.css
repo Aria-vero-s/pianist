@@ -116,7 +116,12 @@ body::before {
   background-position: center;
   background-attachment: fixed;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+  filter: grayscale(100%);
+  backdrop-filter: blur(5px);
+>>>>>>> 04d265e (background image fix)
 }
 
 /* Dark blurry overlay */
