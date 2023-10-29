@@ -117,11 +117,13 @@ const translations = {
 - Dark theme with light purple highlights for an elegant and visually appealing look.
 
 ![Color Palette](palette.png "color palette")
+```
 - antiflash-white: #f0f1f3;
 - platinum: #d8dbe2;
 - periwinkle: #c6b7ff;
 - charcoal: #373f51;
 - jet: #333333;
+```
 
 - The fonts have been applied strategically to create a cohesive and elegant design.
 
@@ -130,10 +132,22 @@ const translations = {
 - **'Playfair Display' for Headings**: 'Playfair Display', a sophisticated serif font, is used for headings and titles.
 
 - **'VVDS london oatmeal' for Logo**: The 'VVDS london oatmeal' font is reserved exclusively for the website's logo.
-
+Please note that 'London Oatmeal' is a Demo Font provided for **PERSONAL USE** only. To acquire the full version and a commercial license for this font, please visit the following link: [Purchase 'London Oatmeal' Font](https://creativemarket.com/VintageVoyage/5079755-London-Oatmeal-%E2%80%A2-Stylish-Duo).
+```
 - font-family: 'Lato', sans-serif;
 - font-family: 'Playfair Display', serif;
 - font-family: 'VVDS london oatmeal';
+```
+
+### Image Credits
+
+The image used in this project, the full-page photograph of the pianist, were generously provided by the pianist himself.
+
+The favicon used in this project was also thoughtfully designed by Paolo Rubinacci, contributing to the website's unique visual identity.
+
+![Favicon](favicon.ico "favicon")
+
+Please note that these images are the intellectual property of Paolo Rubinacci, and any use or distribution of these images should be done with proper permission and attribution as necessary.
 
 ---
 
