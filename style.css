@@ -73,6 +73,7 @@ antiflash-white: #f0f1f3;
 platinum: #d8dbe2;
 periwinkle: #c6b7ff;
 <<<<<<< HEAD
+<<<<<<< HEAD
 jet: #333333;
 =======
 light-purple: #d8dbe2;
@@ -83,6 +84,8 @@ black: #1b1b1e;
 >>>>>>> aaa46d3 (initial commit)
 =======
 charcoal: #373f51;
+=======
+>>>>>>> 027300f (small style adjustments)
 jet: #333333;
 >>>>>>> 5ae273e (updated readme file)
 */
@@ -104,6 +107,9 @@ body {
   margin: 0;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 027300f (small style adjustments)
   background-color: #333333;
   color: #f0f1f3;
 }
@@ -155,7 +161,7 @@ body::before {
 /* Dark blurry overlay */
 .background-image-container::before {
   content: "";
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(3, 3, 3, 0.5);
   position: absolute;
   top: 0;
   right: 0;
@@ -289,6 +295,7 @@ h2 a {
 
 h2 a:hover {
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #c6b7ff;
 =======
   color: #ccc;
@@ -306,6 +313,9 @@ h2 a:hover {
 .cta-button:hover {
   background-color: #373f51;
 >>>>>>> 01f0e08 (added new translation sections)
+=======
+  color: #c6b7ff;
+>>>>>>> 027300f (small style adjustments)
 }
 
 .translation-container {
@@ -345,6 +355,7 @@ h2 a:hover {
   }
   .translation-button:hover {
     background-color:#333333 !important;
+<<<<<<< HEAD
 =======
     border: 1px solid;
 =======
@@ -359,11 +370,14 @@ h2 a:hover {
 >>>>>>> b760b5f (new navbar style)
 =======
 >>>>>>> 406340c (Changed font)
+=======
+>>>>>>> 027300f (small style adjustments)
   }
 }
 
 .translation-button:hover {
   background-color:#333333;
+<<<<<<< HEAD
 }
 
 /* lessons */
@@ -375,6 +389,8 @@ h2 a:hover {
 
 #lessons-paragraph li {
   margin: 10px 0;
+=======
+>>>>>>> 027300f (small style adjustments)
 }
 
 /* lessons */
@@ -575,12 +591,17 @@ h2 a:hover {
 >>>>>>> 935139d (Added dark navbar background effect)
 =======
   z-index: 1000;
+<<<<<<< HEAD
   background-color: rgba(0, 0, 0, 0.7);
 >>>>>>> 3043e13 (navbar style adjustments)
+=======
+  background-color: rgba(3, 3, 3, 0.7);
+>>>>>>> 027300f (small style adjustments)
   transition: all 0.3s;
 }
 
 .navbar.active-bg {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(3, 3, 3, 0.7);
@@ -589,6 +610,9 @@ h3 {
   font-family: "Playfair Display", serif;
   color: #c6b7ff;
   font-size: 1rem;
+=======
+  background-color: rgba(3, 3, 3, 0.7);
+>>>>>>> 027300f (small style adjustments)
 }
 
 a {
@@ -966,19 +990,27 @@ color: #f0f1f3;
 .contact-form input,
 .contact-form textarea {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(3, 3, 3, 0.7);
 =======
   background-color: transparent;
 >>>>>>> aaa46d3 (initial commit)
+=======
+  background-color: rgba(3, 3, 3, 0.7);
+>>>>>>> 027300f (small style adjustments)
   color: #d8dbe2;
   width: 100%;
   padding: 10px;
   margin-top: 5px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   border: 1px solid #333;
 =======
   border: 1px solid #58a4b0;
 >>>>>>> aaa46d3 (initial commit)
+=======
+  border: 1px solid #333;
+>>>>>>> 027300f (small style adjustments)
   border-radius: 5px;
 }
 
@@ -1003,6 +1035,7 @@ color: #f0f1f3;
 
 .contact-form button:hover {
 <<<<<<< HEAD
+<<<<<<< HEAD
   color:#d8dbe2;
   background-color: #c6b7ff;
   transition: all 0.3s;
@@ -1014,6 +1047,11 @@ color: #f0f1f3;
 =======
   background-color: #58a4b0;
   transition: background-color 0.3s;
+=======
+  color:#d8dbe2;
+  background-color: #c6b7ff;
+  transition: all 0.3s;
+>>>>>>> 027300f (small style adjustments)
 }
 
 <<<<<<< HEAD
@@ -1025,7 +1063,7 @@ color: #f0f1f3;
   width: 100%;
   margin: 0 auto;
   padding: 20px;
-  background-color: #000;
+  background-color: rgba(3, 3, 3, 0.7);
 }
 
 audio {
@@ -1051,7 +1089,7 @@ border-bottom: 1px solid #ccc;
 
 #playlist li.active {
 font-weight: 600;
-color: #fff;
+color: #f0f1f3;
 }
 
 #controls {
@@ -1062,7 +1100,7 @@ color: #fff;
 }
 
 #music-player button {
-  color: #000;
+  color: #333;
   border: none;
   border-radius: 50%;
   width: 40px;
