@@ -3,10 +3,7 @@
 
 @font-face {
   font-family: 'VVDS london oatmeal';
-  src: url('vvds_london_oatmeal-sans-webfont.woff2') format('woff2'),
-       url('vvds_london_oatmeal-sans-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+  src: url('VVDS London Oatmeal-Sans.woff') format('woff');
 }
 
 /*
@@ -218,7 +215,7 @@ h2 a:hover {
     transition: all 0.3s;
     text-transform: uppercase;
     font-family: 'VVDS london oatmeal';
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
 
   .navbar-logo a {
