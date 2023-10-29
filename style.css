@@ -54,6 +54,8 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  filter: grayscale(100%);
+  backdrop-filter: blur(5px);
 }
 
 /* Dark blurry overlay */
