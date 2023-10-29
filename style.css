@@ -400,6 +400,7 @@ h2 a:hover {
 <<<<<<< HEAD
 <<<<<<< HEAD
     font-family: 'VVDS london oatmeal';
+<<<<<<< HEAD
 =======
     font-family: 'vvds_london_oatmealsans';
 <<<<<<< HEAD
@@ -416,6 +417,9 @@ h2 a:hover {
 =======
     font-size: 2rem;
 >>>>>>> e44197a (font)
+=======
+    font-size: 1.7rem;
+>>>>>>> c40f0a8 (changed text)
   }
 
   .navbar-logo a {
