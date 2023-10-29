@@ -17,6 +17,7 @@
 =======
   font-family: 'vvds_london_oatmealsans';
 <<<<<<< HEAD
+<<<<<<< HEAD
   src: url('vvds_london_oatmeal-sans-webfont.woff2') format('woff2'),
        url('vvds_london_oatmeal-sans-webfont.woff') format('woff');
 >>>>>>> cf820c8 (change font)
@@ -24,6 +25,10 @@
   src: url('vvds_london_oatmeal-sans-webfont.woff2') format('font/woff2'),
        url('vvds_london_oatmeal-sans-webfont.woff') format('font/woff');
 >>>>>>> f2d2c80 (font format added)
+=======
+  src: url('vvds_london_oatmeal-sans-webfont.woff2') format('woff2'),
+       url('vvds_london_oatmeal-sans-webfont.woff') format('woff');
+>>>>>>> 42b3831 (fixed font issue)
   font-weight: normal;
   font-style: normal;
 }
@@ -34,12 +39,16 @@ font-family: 'Lato', sans-serif;
 font-family: 'Playfair Display', serif;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 font-family: 'VVDS london oatmeal';
 =======
 >>>>>>> aaa46d3 (initial commit)
 =======
 font-family: "VVDS London Oatmeal";
 >>>>>>> 77051e8 (cleaned the CSS)
+=======
+font-family: 'vvds_london_oatmealsans';
+>>>>>>> 42b3831 (fixed font issue)
 */
 
 /*
@@ -369,7 +378,11 @@ h2 a:hover {
   .navbar-logo {
     transition: all 0.3s;
     text-transform: uppercase;
+<<<<<<< HEAD
     font-family: 'VVDS london oatmeal';
+=======
+    font-family: 'vvds_london_oatmealsans';
+>>>>>>> 42b3831 (fixed font issue)
     font-size: 1.7rem;
   }
 
@@ -453,7 +466,11 @@ h2 a:hover {
   .navbar-logo {
     transition: all 0.3s;
     text-transform: uppercase;
+<<<<<<< HEAD
     font-family: 'VVDS london oatmeal';
+=======
+    font-family: 'vvds_london_oatmealsans';
+>>>>>>> 42b3831 (fixed font issue)
     font-size: 1.7rem;
   }
 
