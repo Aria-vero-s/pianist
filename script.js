@@ -38,16 +38,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Function to toggle the menu icon
     function toggleMenuIcon() {
-        const icon = menuIcon.querySelector("i");
-        if (navbar.classList.contains("show-mobile-links")) {
-            // Change the menu icon to an X
-            icon.classList.remove("fa-bars");
-            icon.classList.add("fa-times");
-        } else {
-            // Change the X back to the menu icon
-            icon.classList.remove("fa-times");
-            icon.classList.add("fa-bars");
-        }
+      const menuIcon = document.getElementById("menu-icon");
+      if (navbar.classList.contains("show-mobile-links")) {
+          // The menu is open, so display the 'x'
+          menuIcon.textContent = "✕";
+      } else {
+          // The menu is closed, so display the '≡'
+          menuIcon.textContent = "≡";
+      }
     }
 });
 

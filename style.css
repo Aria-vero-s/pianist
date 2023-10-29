@@ -18,7 +18,6 @@ colors:
 antiflash-white: #f0f1f3;
 platinum: #d8dbe2;
 periwinkle: #c6b7ff;
-charcoal: #373f51;
 jet: #333333;
 */
 
@@ -36,8 +35,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   margin: 0;
-  background-color: #000;
-  color: #d8dbe2;
+  background-color: #333333;
+  color: #f0f1f3;
 }
 
 /* Container for the background image */
@@ -59,7 +58,7 @@ body {
 /* Dark blurry overlay */
 .background-image-container::before {
   content: "";
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(3, 3, 3, 0.5);
   position: absolute;
   top: 0;
   right: 0;
@@ -101,7 +100,6 @@ header {
   background-image: url("header-image.jpg");
   background-size: cover;
   background-position: center;
-  color: #d8dbe2;
   text-align: center;
   padding: 20px 0;
   height: 100vh;
@@ -122,26 +120,13 @@ h2 {
 }
 
 h2 a {
-  color: #fff;
+  color: #f0f1f3;
   transition: all 0.3s;
   text-decoration: none;
 }
 
 h2 a:hover {
-  color: #ccc;
-}
-
-.cta-button {
-  text-decoration: none;
-  color: #d8dbe2;
-  background-color: #1b1b1e;
-  border-radius: 5px;
-  padding: 10px 20px;
-  transition: all 0.3s;
-}
-
-.cta-button:hover {
-  background-color: #373f51;
+  color: #c6b7ff;
 }
 
 .translation-container {
@@ -157,10 +142,10 @@ h2 a:hover {
 }
 
 .translation-button {
+  color:#f0f1f3;
   background: none;
   font-size: 1rem;
   font:inherit;
-  color:#f0f1f3;
   cursor: pointer;
   padding: 5px 20px;
   text-decoration: none;
@@ -178,13 +163,12 @@ h2 a:hover {
     border:none !important;
   }
   .translation-button:hover {
-    background-color:#000 !important;
-    color:#c6b7ff !important;
+    background-color:#333333 !important;
   }
 }
 
 .translation-button:hover {
-  background-color:#000;
+  background-color:#333333;
 }
 
 /* lessons */
@@ -232,6 +216,7 @@ h2 a:hover {
   .menu-icon {
     display: block;
     cursor: pointer;
+    font-size: 4rem;
   }
 
   .hide-logo {
@@ -249,7 +234,7 @@ h2 a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #333;
+    background-color: rgba(3, 3, 3, 0.7);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -347,12 +332,12 @@ h2 a:hover {
 /* Styles for the active class (darker navbar) */
 .navbar.active {
   z-index: 1000;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(3, 3, 3, 0.7);
   transition: all 0.3s;
 }
 
 .navbar.active-bg {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(3, 3, 3, 0.7);
 }
 /* contact  */
 
@@ -368,12 +353,12 @@ h2 a:hover {
 
 .contact-form input,
 .contact-form textarea {
-  background-color: transparent;
+  background-color: rgba(3, 3, 3, 0.7);
   color: #d8dbe2;
   width: 100%;
   padding: 10px;
   margin-top: 5px;
-  border: 1px solid #c6b7ff;
+  border: 1px solid #333;
   border-radius: 5px;
 }
 
@@ -389,8 +374,9 @@ h2 a:hover {
 }
 
 .contact-form button:hover {
+  color:#d8dbe2;
   background-color: #c6b7ff;
-  transition: background-color 0.3s;
+  transition: all 0.3s;
 }
 
 /* audio player */
@@ -399,7 +385,7 @@ h2 a:hover {
   width: 100%;
   margin: 0 auto;
   padding: 20px;
-  background-color: #000;
+  background-color: rgba(3, 3, 3, 0.7);
 }
 
 audio {
@@ -425,7 +411,7 @@ border-bottom: 1px solid #ccc;
 
 #playlist li.active {
 font-weight: 600;
-color: #fff;
+color: #f0f1f3;
 }
 
 #controls {
@@ -436,7 +422,7 @@ color: #fff;
 }
 
 #music-player button {
-  color: #000;
+  color: #333;
   border: none;
   border-radius: 50%;
   width: 40px;
