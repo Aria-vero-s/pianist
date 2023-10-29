@@ -170,6 +170,7 @@ body::before {
   .background-image-container {
     background-size: cover;
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-position: center;
     height: 100vh;
   }
@@ -192,6 +193,13 @@ body::before {
 
 
 >>>>>>> 98eac14 (smaller screen adjustments)
+=======
+    background-position: center;
+    height: 100vh;
+  }
+}
+
+>>>>>>> 37fd146 (background fix for mobile view)
 section {
     margin: 100px;
     padding: 100px;
