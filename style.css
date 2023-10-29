@@ -382,8 +382,12 @@ h2 a:hover {
     font-family: 'VVDS london oatmeal';
 =======
     font-family: 'vvds_london_oatmealsans';
+<<<<<<< HEAD
 >>>>>>> 42b3831 (fixed font issue)
     font-size: 1.7rem;
+=======
+    font-size: 1rem;
+>>>>>>> f124291 (font fix)
   }
 
   .navbar-logo a {
