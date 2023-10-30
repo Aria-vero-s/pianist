@@ -3,6 +3,8 @@
 
 Welcome to the README file for the Pianist Portfolio website. This single-page website showcases the informations of a pianist in an elegant and functional design. The website is divided into four main sections: Header, About, Lessons, and Contact Form.
 
+[Live link](https://aria-vero-s.github.io/pianist/).
+
 ## Table of Contents
 
 - [Features](#features)
