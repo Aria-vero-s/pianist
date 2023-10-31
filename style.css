@@ -387,7 +387,7 @@ h2 a:hover {
   }
   
   .profile-video {
-    margin-top:25px;
+    margin-top:20px;
     width:100%;
     order: 1;
   }
@@ -396,10 +396,6 @@ h2 a:hover {
     padding-left: 0px;
     margin: auto 0;
     align-self: center;
-  }
-
-  #hidden {
-    display:none;
   }
 }
 
