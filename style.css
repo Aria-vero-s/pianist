@@ -1014,10 +1014,6 @@ color: #f0f1f3;
     align-items: flex-start;
   }
 
-  .about-section h1 {
-    display:block;
-  }
-
   .about-paragraph {
     margin-top:20px;
     order: 2;
