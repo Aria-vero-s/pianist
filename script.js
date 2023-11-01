@@ -623,6 +623,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     window.addEventListener("load", displayRandomTestimonials);
+<<<<<<< HEAD
 =======
 document.addEventListener('DOMContentLoaded', function() {
     const requestQuoteButtons = document.querySelectorAll('.request-quote-button');
@@ -783,3 +784,6 @@ playButton.addEventListener('click', () => {
 //   });
 // });
 >>>>>>> f28ec63 (updated gitignore and readme file)
+=======
+});
+>>>>>>> 40361c2 (Added testimonials section)

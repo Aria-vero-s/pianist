@@ -1065,6 +1065,7 @@ color: #f0f1f3;
     }
   }
 
+<<<<<<< HEAD
 >>>>>>> 7765e28 (added bio video)
 /* contact  */
 
@@ -1148,6 +1149,8 @@ color: #f0f1f3;
 <<<<<<< HEAD
 >>>>>>> aaa46d3 (initial commit)
 =======
+=======
+>>>>>>> 40361c2 (Added testimonials section)
 /* audio player */
 
 #music-player {
@@ -1204,6 +1207,90 @@ color: #f0f1f3;
 #music-player button:hover {
   background-color: #c6b7ff;
 }
+
+/* testimonials */
+
+.testimonials {
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #333;
+}
+
+.testimonial {
+  width:80%;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+#testimonial-text-1, #testimonial-text-2, #testimonial-text-3 {
+  font-style:oblique !important;
+}
+
+#testimonial-name-1, #testimonial-name-2, #testimonial-name-3 {
+  font-weight: bold !important;
+}
+
+@media (max-width: 600px) {
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .testimonial {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+}
+
+/* contact  */
+
+.contact-form-container {
+  background-color: transparent;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+  color: #d8dbe2;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: rgba(3, 3, 3, 0.7);
+  color: #d8dbe2;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #333;
+  color: #d8dbe2;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.contact-form button:hover {
+  color:#d8dbe2;
+  background-color: #c6b7ff;
+  transition: all 0.3s;
+}
+
 
 /* footer */
 
