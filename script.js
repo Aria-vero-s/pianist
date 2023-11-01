@@ -374,3 +374,65 @@ document.addEventListener('DOMContentLoaded', function() {
       // );
 //   });
 // });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Testimonials data
+    const englishTestimonials = [
+        { text: "Paolo is a great teacher! Highly recommended.", name: "John Doe" },
+        { text: "Outstanding lessons. I enjoy every moment!", name: "Jane Smith" },
+        { text: "Paolo's teaching style is both patient and encouraging, and I look forward to every lesson.", name: "Vincent M" },
+        { text: "Paolo's piano lessons have not only improved my playing skills but also my overall understanding of music.", name: "Pauline K." },
+        { text: "I'm thrilled with my progress!", name: "David R." },
+    ];
+
+    const frenchTestimonials = [
+        { text: "J'ai suivi des cours de piano pendant six mois, et je suis émerveillé par les progrès que j'ai réalisés.", name: "Georgie D." },
+        { text: "La passion de Paolo pour la musique est contagieuse", name: "Sarah L" },
+        { text: "En tant qu'apprenant adulte, j'étais un peu anxieux à l'idée de commencer des cours de piano mais je suis ravi!", name: "Maurice" },
+        { text: "Ses cours de piano sont un équilibre parfait entre théorie et pratique.", name: "Lucille" },
+        { text: "Paolo est non seulement un pianiste talentueux, mais aussi fantastique avec les enfants.", name: "Laura" },
+    ];
+
+    const italianTestimonials = [
+        { text: "Altamente raccomandato!", name: "Giovanni M" },
+        { text: "La passione del Paolo per la musica è contagiosa", name: "Emilia" },
+        { text: "Tuttavia, l'esperienza e l'approccio personalizzato del Paolo mi hanno fatto sentire a mio agio e fiducioso.", name: "Marco R." },
+        { text: "Adoro ogni momento!", name: "Davide S." },
+        { text: "Mio figlio attende con ansia ogni lezione.", name: "Lucia" },
+    ];
+
+    const testimonials = [englishTestimonials, frenchTestimonials, italianTestimonials];
+    const testimonialLanguages = ["English", "French", "Italian"];
+
+    let currentLanguageIndex = -1;
+    let currentIndexs = [-1, -1, -1];
+
+    function getRandomIndex(array) {
+        let newIndex;
+        do {
+            newIndex = Math.floor(Math.random() * array.length);
+        } while (currentIndexs.includes(newIndex));
+        currentIndexs[currentLanguageIndex] = newIndex;
+        return newIndex;
+    }
+
+    function displayRandomTestimonials() {
+        for (let i = 1; i <= 3; i++) {
+            currentLanguageIndex = (currentLanguageIndex + 1) % 3;
+            const languageTestimonials = testimonials[currentLanguageIndex];
+            const index = getRandomIndex(languageTestimonials);
+            const testimonialText = languageTestimonials[index].text;
+            const testimonialName = languageTestimonials[index].name;
+            const language = testimonialLanguages[currentLanguageIndex];
+
+            const textElement = document.getElementById(`testimonial-text-${i}`);
+            const nameElement = document.getElementById(`testimonial-name-${i}`);
+
+            textElement.textContent = `"${testimonialText}"`;
+            nameElement.textContent = testimonialName;
+        }
+    }
+
+    window.addEventListener("load", displayRandomTestimonials);
+});
