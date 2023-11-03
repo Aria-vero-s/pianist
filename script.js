@@ -78,6 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       lessons: {
         h1: "Lessons",
+        h3: "My students",
         p1: "Resulting from the combination of my musical education with my academic studies in philosophy, my unique teaching approach is based on the translation of principles from linguistic-anthropological structuralism into the realm of music pedagogy. In stark contrast to the traditional approach focused on technical perfection, my teaching style aims to directly tap into the inherent skills within each human being, which, when properly nurtured, enable each of us to communicate musically, using music as a language.",
         p2: "Tailoring the pedagogical plan to each student's initial level, my lessons offer training methods to cultivate key capacities that facilitate authentic musical expression, namely:",
         p3: "By combining Claude Lévi-Strauss's anthropological teaching with the pedagogy practices of masters like Kenny Werner and Jerry Bergonzi, my lessons place at the core of the learning process the development of the skills allowing the hidden musician within every human being to come to light. Because the broader goal is not only to understand how music works, but to gain a deeper and empathetic comprehension of how we work. Through music.",
@@ -144,6 +145,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       lessons: {
         h1: "Cours",
+        h3: "Mes étudiants",
         p1: "Résultant de la combinaison de ma formation musicale et de mes études académiques en philosophie, mon approche pédagogique unique est basée sur la traduction des principes du structuralisme linguistique-anthropologique dans le domaine de la pédagogie musicale. Contrairement à l'approche traditionnelle axée sur la perfection technique, mon style d'enseignement vise à exploiter directement les compétences inhérentes à chaque être humain qui, lorsqu'elles sont correctement entretenues, permettent à chacun d'entre nous de communiquer musicalement, en utilisant la musique comme un langage.",
         p2: "En adaptant le plan pédagogique au niveau de chaque élève, mes cours proposent des méthodes d'entraînement pour cultiver les capacités clés qui facilitent l'expression musicale authentique, à savoir:",
         p3: "En combinant l'enseignement anthropologique de Claude Lévi-Strauss avec les pratiques pédagogiques de maîtres tels que Kenny Werner et Jerry Bergonzi, mes cours placent au cœur du processus d'apprentissage le développement des compétences permettant au musicien caché dans chaque être humain de se révéler. Car l'objectif général n'est pas seulement de comprendre comment fonctionne la musique, mais d'acquérir une compréhension plus profonde et empathique de la façon dont nous fonctionnons. À travers la musique.",
@@ -258,6 +260,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       lessons: {
         h1: "Lezioni",
+        h3: "I miei studenti",
         p1: "Risultato della combinazione della mia formazione musicale con i miei studi accademici in filosofia, il mio originale approccio all’insegnamento si fonda sulla traslazione dei principi dello strutturalismo linguistico-antropologico nel campo della pedagogia musicale. In aperto contrasto con l’approccio tradizionale focalizzato sullo sviluppo di una perfezione tecnica, il mio stile di insegnamento si propone di agire in modo diretto sulle capacità già presenti in ciascun essere umano, che se sviluppate adeguatamente permettono a ciascuno di noi di comunicare musicalmente, servendosi della musica come linguaggio.",
         p2: "Adattando il piano pedagogico al livello di partenza di ciascuno studente, nelle mie lezioni propongo delle procedure di allenamento per sviluppare le capacità chiave che permettono di esprimersi musicalmente in modo originale, ossia:",
         p3: "Combinando l’insegnamento antropologico di Claude Lévi-Strauss con le pratiche della pedagogia musicale dei maestri Kenny Werner e Jerry Bergonzi, le mie lezioni mettono dunque al centro del processo di apprendimento lo sviluppo di quelle capacità che permettono al musicista nascosto dentro di noi di venire alla luce. Perché l’obiettivo più vasto non è semplicemente comprendere come funziona la musica, ma acquisire una consapevolezza sempre più chiara di come funzioniamo noi. Attraverso la musica.",
@@ -318,6 +321,7 @@ document.addEventListener('DOMContentLoaded', function() {
   function updateLessonsContent(lessonsData) {
     const lessonsParagraph = document.getElementById('lessons-paragraph');
     const h1 = lessonsParagraph.querySelector('h1');
+    const h3 = lessonsParagraph.querySelector('h3');
     const p1 = lessonsParagraph.querySelector('p');
     const p2 = lessonsParagraph.querySelectorAll('p')[1];
     const p3 = lessonsParagraph.querySelectorAll('p')[2];
@@ -330,6 +334,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   
     h1.textContent = lessonsData.h1;
+    h3.textContent = lessonsData.h3;
     p1.textContent = lessonsData.p1;
     p2.textContent = lessonsData.p2;
     p3.textContent = lessonsData.p3;
@@ -635,6 +640,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+<<<<<<< HEAD
 document.addEventListener("DOMContentLoaded", function() {
     const burger = document.querySelector(".burger");
     const navLinks = document.querySelector(".nav-links");
@@ -787,3 +793,33 @@ playButton.addEventListener('click', () => {
 =======
 });
 >>>>>>> 40361c2 (Added testimonials section)
+=======
+
+// test
+
+document.addEventListener('DOMContentLoaded', function() {
+  const testimonials = document.querySelectorAll('.testimonial');
+  let currentIndex = 0;
+
+  function showTestimonial(index) {
+      testimonials[currentIndex].style.display = 'none';
+      currentIndex = index;
+      testimonials[currentIndex].style.display = 'block';
+  }
+
+  document.getElementById('prevBtn').addEventListener('click', () => {
+      if (currentIndex > 0) {
+          showTestimonial(currentIndex - 1);
+      }
+  });
+
+  document.getElementById('nextBtn').addEventListener('click', () => {
+      if (currentIndex < testimonials.length - 1) {
+          showTestimonial(currentIndex + 1);
+      }
+  });
+
+  // Show the first testimonial initially
+  showTestimonial(currentIndex);
+});
+>>>>>>> 039e4da (added testimonials)

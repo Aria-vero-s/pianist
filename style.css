@@ -226,8 +226,10 @@ body::before {
 
 >>>>>>> 37fd146 (background fix for mobile view)
 section {
-    margin: 100px;
-    padding: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
     text-align: left;
     width: 100%;
     margin: 0 auto;
@@ -318,6 +320,12 @@ h2 a:hover {
 >>>>>>> 027300f (small style adjustments)
 }
 
+h3 {
+  font-family: "Playfair Display", serif;
+  color: #c6b7ff;
+  font-size: 1.5rem;
+}
+
 .translation-container {
   position: absolute;
   top: 90%;
@@ -394,6 +402,10 @@ h2 a:hover {
 }
 
 /* lessons */
+
+#lessons-paragraph {
+  text-align: justify;
+}
 
 #lessons-paragraph ul {
   list-style-type: decimal;
@@ -1209,7 +1221,7 @@ color: #f0f1f3;
 }
 
 /* testimonials */
-
+/* 
 .testimonials {
   text-align: center;
   justify-content: center;
@@ -1249,7 +1261,7 @@ color: #f0f1f3;
     padding: 20px;
     border-radius: 5px;
   }
-}
+} */
 
 /* contact  */
 
@@ -1355,6 +1367,7 @@ footer a:hover {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     }
 >>>>>>> aaa46d3 (initial commit)
@@ -1419,3 +1432,144 @@ audio {
 >>>>>>> 77051e8 (cleaned the CSS)
 =======
 >>>>>>> 01f0e08 (added new translation sections)
+=======
+
+
+/* lessons section */
+
+#lessons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.lessons-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.lessons-paragraph {
+  flex: 1;
+  text-align: justify;
+  margin-right:60px;
+}
+
+.slideshow {
+  flex: 1;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#slideshow {
+  padding-left: 80px;
+  width: 100%;
+  min-height: 50vh;
+  margin: 0;
+
+  max-width: 500px;
+  margin: 0 auto;
+  padding:20px;
+  position: relative;
+  background-color: rgba(3, 3, 3, 0.7);
+}
+
+.testimonial {
+  display: none;
+  padding-right: 50px;
+  padding-left: 50px;
+  align-items: center;
+}
+.testimonial p {
+  padding:40px;
+  background-color: #1e1e1e;
+  min-height: 40vh;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers items horizontally */
+  justify-content: center; /* Centers items vertically */
+}
+#controls-testimonials {
+  margin-top: 20px;
+}
+#controls-testimonials button {
+  color:#c6b7ff;
+  background: none;
+  font-size: 1rem;
+  font:inherit;
+  cursor: pointer;
+  padding: 5px 20px;
+  text-decoration: none;
+  transition: all 0.3s;
+  border: none;
+  margin-left:30px;
+  margin-right:30px;
+}
+
+/* mobile */
+@media (max-width: 600px) {
+  #lessons {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .lessons-section {
+    margin-top:20px;
+    order: 2;
+  }
+  
+  .slideshow {
+    margin-top:20px;
+    width:100%;
+    order: 1;
+  }
+  
+  #slideshow {
+    padding-left: 0px;
+    margin: auto 0;
+    align-self: center;
+  }
+
+  .lessons-paragraph {
+    margin-bottom:100px;
+    margin-right:0px;
+  }
+}
+
+/* Middle-sized devices like iPads */
+@media (min-width: 601px) and (max-width: 1024px) {
+    #lessons {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .lessons-section {
+      display:block;
+    }
+
+    .lessons-paragraph {
+      margin-bottom:100px;
+      margin-right:0px;
+    }
+  
+    .slideshow {
+      margin-top:20px;
+      order: 2;
+    }
+    
+    #slideshow {
+      margin-top:20px;
+      width:100%;
+      order: 1;
+    }
+  
+    #hidden {
+      display:none;
+    }
+  }
+>>>>>>> 039e4da (added testimonials)
