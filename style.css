@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&family=Playfair+Display:ital,wght@0,400;0,900;1,400;1,900&display=swap");
 <<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,500;1,6..96,600;1,6..96,700;1,6..96,800;1,6..96,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;0,6..96,900;1,6..96,400;1,6..96,800;1,6..96,900&family=EB+Garamond:ital,wght@0,400;0,600;0,800;1,600;1,800&family=Merriweather:ital,wght@0,300;0,700;1,900&display=swap');
 
 @font-face {
 <<<<<<< HEAD
@@ -49,6 +51,7 @@ font-family: 'Playfair Display', serif;
 <<<<<<< HEAD
 <<<<<<< HEAD
 font-family: 'VVDS london oatmeal';
+<<<<<<< HEAD
 =======
 >>>>>>> aaa46d3 (initial commit)
 =======
@@ -60,6 +63,11 @@ font-family: 'vvds_london_oatmealsans';
 =======
 font-family: 'VVDS london oatmeal';
 >>>>>>> 1d07f5e (font fix for mobile)
+=======
+font-family: 'Bodoni Moda', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Merriweather', serif;
+>>>>>>> 3ead31e (added video and fixed testimonials layout for responsive design)
 */
 
 /*
@@ -226,10 +234,8 @@ body::before {
 
 >>>>>>> 37fd146 (background fix for mobile view)
 section {
-    margin-right: 100px;
-    margin-left: 100px;
-    padding-right: 100px;
-    padding-left: 100px;
+    margin: 100px;
+    padding: 80px;
     text-align: left;
     width: 100%;
     margin: 0 auto;
@@ -267,8 +273,13 @@ header {
 }
 
 h1 {
+<<<<<<< HEAD
   font-family: "Playfair Display", serif;
 <<<<<<< HEAD
+=======
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 800;
+>>>>>>> 3ead31e (added video and fixed testimonials layout for responsive design)
   color: #c6b7ff;
 =======
   color: #58a4b0;
@@ -278,8 +289,13 @@ h1 {
 }
 
 h2 {
+<<<<<<< HEAD
   font-family: "Playfair Display", serif;
 <<<<<<< HEAD
+=======
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 800;
+>>>>>>> 3ead31e (added video and fixed testimonials layout for responsive design)
   color: #c6b7ff;
 =======
   color: #58a4b0;
@@ -321,7 +337,8 @@ h2 a:hover {
 }
 
 h3 {
-  font-family: "Playfair Display", serif;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 800;
   color: #c6b7ff;
   font-size: 1.5rem;
 }
@@ -459,7 +476,7 @@ h3 {
   }
 
   .navbar-logo a {
-    color:#c6b7ff;
+    color:#f0f1f3;
     text-decoration: none;
     transition: all 0.3s;
   }
@@ -1457,24 +1474,28 @@ audio {
 
 .slideshow {
   flex: 1;
-  margin: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-}
-
-#slideshow {
-  padding-left: 80px;
-  width: 100%;
-  min-height: 50vh;
-  margin: 0;
-
-  max-width: 500px;
   margin: 0 auto;
+
+  padding-left: 80px;
   padding:20px;
+  padding-bottom:80px;
+  height: 80vh;
+  width: 100%;
+  max-width: 550px;
+
   position: relative;
   background-color: rgba(3, 3, 3, 0.7);
+}
+
+.slideshow h3 {
+  position: absolute;
+  top: 0;
+  padding: 10px;
+  margin: 0;
 }
 
 .testimonial {
@@ -1482,8 +1503,10 @@ audio {
   padding-right: 50px;
   padding-left: 50px;
   align-items: center;
+  justify-content: flex-start;
 }
 .testimonial p {
+  margin-top:40px;
   padding:40px;
   background-color: #1e1e1e;
   min-height: 40vh;
@@ -1491,11 +1514,14 @@ audio {
 
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centers items horizontally */
-  justify-content: center; /* Centers items vertically */
+  align-items: center;
+  justify-content: center;
 }
 #controls-testimonials {
   margin-top: 20px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
 }
 #controls-testimonials button {
   color:#c6b7ff;
@@ -1519,25 +1545,43 @@ audio {
   }
 
   .lessons-section {
-    margin-top:20px;
+    display: block;
     order: 2;
+  }
+  .lessons-paragraph {
+    margin-right:0;
+    flex: 1;
+    text-align: justify;
   }
   
   .slideshow {
-    margin-top:20px;
-    width:100%;
+    margin:0;
+    padding:0;
     order: 1;
-  }
-  
-  #slideshow {
-    padding-left: 0px;
-    margin: auto 0;
+    width:100%;
+    padding:0;
+    margin-top:100px;
+    margin-bottom:0;
+    margin-left:0;
+    margin-right:0;
     align-self: center;
+    height: 100vh;
   }
 
-  .lessons-paragraph {
-    margin-bottom:100px;
-    margin-right:0px;
+  .testimonial {
+    justify-content:center;
+    padding:0;
+  }
+  .testimonial p {
+    justify-content:center;
+    padding:30px;
+    background-color: transparent;
+  }
+  #controls-testimonials {
+    margin: 0;
+    padding:0;
+    position: absolute;
+    bottom: 0;
   }
 }
 
@@ -1550,6 +1594,7 @@ audio {
   
     .lessons-section {
       display:block;
+      order:2;
     }
 
     .lessons-paragraph {
@@ -1559,17 +1604,22 @@ audio {
   
     .slideshow {
       margin-top:20px;
-      order: 2;
-    }
-    
-    #slideshow {
+      order: 1;
       margin-top:20px;
       width:100%;
       order: 1;
+      height:90vh;
+      margin: 0 auto;
     }
   
     #hidden {
       display:none;
+    }
+    #controls-testimonials {
+      margin-top: 0px;
+      position: absolute;
+      bottom: 0;
+      margin-bottom: 20px;
     }
   }
 >>>>>>> 039e4da (added testimonials)

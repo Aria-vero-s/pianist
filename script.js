@@ -60,12 +60,16 @@ document.addEventListener('DOMContentLoaded', function() {
   const translations = {
     english: {
       about: {
+<<<<<<< HEAD
         h1: "Hello, I'm Paolo",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+        h1: "Bio",
+>>>>>>> 3ead31e (added video and fixed testimonials layout for responsive design)
         p1: "I started playing the piano in Naples when I was 9, and I perfected my technique through classical music studies in Italy, before moving to France to study modern harmony and jazz. In Paris, I obtained a master's degree in music and philosophy at the École Normale Supérieure de Paris, where I launched a research project on the aesthetics of music and French structuralism in partnership with the École des Hautes Études en Sciences Sociales and the Conservatory of Paris. In the meantime, I focused my playing on jazz and started my career as a professional pianist amidst the intoxicating rhythms of the City of Light, where I performed regularly at the heart of Montmartre’s legendary cabarets and enlivened the charming cafes nestled within the Latin Quarter.",
         p2: "Embracing a harmonious blend of musical traditions, my style evolved to be a unique fusion of Italian and French music legacies, interwoven with a deep appreciation for the rhythmic richness of Southern American music. This international approach to music performance, combined with a deep-seated interest in ethnomusicology, eventually led me to direct the first World Music workshop at the renowned Cité Internationale Universitaire de Paris, Europe’s largest international student campus, where my diverse influences culminated into a celebration of global musical diversity."
 =======
@@ -134,7 +138,11 @@ document.addEventListener('DOMContentLoaded', function() {
       about: {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         h1: "Salut, je m'appelle Paolo",
+=======
+        h1: "Bio",
+>>>>>>> 3ead31e (added video and fixed testimonials layout for responsive design)
         p1: "J'ai commencé à jouer du piano à Naples à l'âge de 9 ans, et j'ai perfectionné ma technique en suivant des études de musique classique en Italie, avant de partir en France pour étudier l'harmonie moderne et le jazz. À Paris, j'ai obtenu un master en musique et philosophie à l'École Normale Supérieure de Paris, où j’ai lancé un projet de recherche portant sur l'esthétique de la musique et le structuralisme français en partenariat avec l’École des Hautes Études en Sciences Sociales et le Conservatoire National Supérieur de Musique et de Danse de Paris. Entre-temps, je me suis orienté vers le jazz et j'ai commencé ma carrière de pianiste professionnel dans les rythmes enivrants de la Ville Lumière, où je me produisais régulièrement au cœur des légendaires cabarets de Montmartre et animais les cafés intimes nichés dans le Quartier Latin.",
         p2: "Mon style a évolué pour devenir un mélange harmonieux de traditions musicales, une fusion unique d'héritages musicaux italiens et français, entrelacés avec une profonde appréciation de la richesse rythmique de la musique de l’Amérique du Sud. Cette approche internationale de la musique, associée à un intérêt profond pour l'ethnomusicologie, m'a finalement conduit à diriger le premier atelier de Musiques du Monde à la célèbre Cité Internationale Universitaire de Paris, le plus grand campus d'étudiants étrangers d'Europe, où mes diverses influences ont culminé dans une célébration de la diversité musicale mondiale.",
 =======
@@ -205,6 +213,7 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     italian: {
       about: {
+<<<<<<< HEAD
         h1: "Ciao, sono Paolo",
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -255,6 +264,9 @@ document.addEventListener('DOMContentLoaded', function() {
         li3: "La capacità Creativo-Improvisativa, che significa la capacità di creare una linea melodica in grado di adattarsi e interagire con una progressione armonica sottostante.",
 >>>>>>> 01f0e08 (added new translation sections)
 =======
+=======
+        h1: "Bio",
+>>>>>>> 3ead31e (added video and fixed testimonials layout for responsive design)
         p1: "Ho iniziato a suonare il pianoforte a 9 anni a Napoli, dove ho perfezionato la mia tecnica dedicandomi a studi classici prima di trasferirmi in Francia per studiare armonia moderna e jazz. A Parigi, ho ottenuto una laurea magistrale in filosofia e musica all’École Normale Supérieure, dando avvio ad un progetto di ricerca dedicato all’estetica musicale e allo strutturalismo francese condotto in partenariato con l’École des Hautes Études en Sciences Sociales ed il Conservatoire National Supérieur de Musique et de Danse de Paris. Parallelamente, mi sono concentrato sul jazz ed ho cominciato la mia carriera di pianista professionista nella vibrante scena musicale della capitale francese, esibendomi regolarmente negli iconici cabaret di Montmartre ed animando i caffè-concerto del Quartiere Latino.",
         p2: "Sviluppatosi al crocevia di differenti fonti d’ispirazione, il mio stile si è presto trasformato in un’originale fusione delle tradizioni musicali d’Italia e Francia, saldamente intrecciate con una profonda passione per la ricchezza del patrimonio ritmico dell’America Latina. Tale apertura internazionale, combinata con il mio interesse per l’etnomusicologia, ha così trovato coronamento nella mia attività didattica, portandomi a dirigere il primo laboratorio dedicato alle tradizioni musicali del mondo alla Cité Internationale Universitaire de Paris. Ospitata nel campus internazionale più grande d’Europa nel confronto diretto con più di 10 mila studenti di oltre 150 nazionalità differenti, la mia missione didattica è nata sotto il segno della diversità musicale globale."
       },
@@ -822,4 +834,19 @@ document.addEventListener('DOMContentLoaded', function() {
   // Show the first testimonial initially
   showTestimonial(currentIndex);
 });
+<<<<<<< HEAD
 >>>>>>> 039e4da (added testimonials)
+=======
+
+document.addEventListener('DOMContentLoaded', function() {
+  const video = document.querySelector('iframe');
+
+  function playVideo() {
+      video.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+  }
+
+  function pauseVideo() {
+      video.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+  }
+});
+>>>>>>> 3ead31e (added video and fixed testimonials layout for responsive design)
