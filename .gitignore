@@ -8,3 +8,5 @@ node_modules/
 .github/
 cloudinary_python.txt
 email.js
+compressed-video.mp4
+video.mov
