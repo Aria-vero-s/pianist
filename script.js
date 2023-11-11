@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 935139d (Added dark navbar background effect)
 // dark bg effect
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -60,29 +56,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const translations = {
     english: {
       about: {
-<<<<<<< HEAD
-        h1: "Hello, I'm Paolo",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         h1: "Bio",
->>>>>>> 3ead31e (added video and fixed testimonials layout for responsive design)
         p1: "I started playing the piano in Naples when I was 9, and I perfected my technique through classical music studies in Italy, before moving to France to study modern harmony and jazz. In Paris, I obtained a master's degree in music and philosophy at the École Normale Supérieure de Paris, where I launched a research project on the aesthetics of music and French structuralism in partnership with the École des Hautes Études en Sciences Sociales and the Conservatory of Paris. In the meantime, I focused my playing on jazz and started my career as a professional pianist amidst the intoxicating rhythms of the City of Light, where I performed regularly at the heart of Montmartre’s legendary cabarets and enlivened the charming cafes nestled within the Latin Quarter.",
-<<<<<<< HEAD
-        p2: "Embracing a harmonious blend of musical traditions, my style evolved to be a unique fusion of Italian and French music legacies, interwoven with a deep appreciation for the rhythmic richness of Southern American music. This international approach to music performance, combined with a deep-seated interest in ethnomusicology, eventually led me to direct the first World Music workshop at the renowned Cité Internationale Universitaire de Paris, Europe’s largest international student campus, where my diverse influences culminated into a celebration of global musical diversity."
-=======
-        p: "I started playing the piano in Naples when I was 9, and I perfected my technique through classical music studies in Italy, before moving to France to study modern harmony and jazz. In Paris I completed a master’s degree in music and philosophy at the École Normale Supérieure de Paris, with a dissertation on the aesthetics of music and French structuralism. In the meantime, I focused my playing on jazz and started my career as a professional pianist amidst the intoxicating rhythms of the City of Light, where I performed regularly at the heart of Montmartre’s legendary cabarets and animated its intimate cafes nestled within the Latin Quarter.",
-        p: "Embracing a harmonious blend of musical traditions, my style evolved to be a unique fusion of Italian and French music legacies, interwoven with a deep appreciation for the rhythmic richness of African-American and Latin-American music. This international approach to music performance, combined with a deep-seated interest in ethnomusicology, eventually led me to direct the first World Music workshop at the renowned Cité Internationale Universitaire de Paris, Europe’s largest international student campus, where my diverse influences culminated into a celebration of global musical diversity."
->>>>>>> b760b5f (new navbar style)
-=======
-        p: "I started playing the piano in Naples when I was 9, and I perfected my technique through classical music studies in Italy, before moving to France to study modern harmony and jazz. In Paris I completed a master’s degree in music and philosophy at the École Normale Supérieure de Paris, with a dissertation on the aesthetics of music and French structuralism. In the meantime, I focused my playing on jazz and started my career as a professional pianist amidst the intoxicating rhythms of the City of Light, where I performed regularly at the heart of Montmartre’s legendary cabarets and animated its intimate cafes nestled within the Latin Quarter.Embracing a harmonious blend of musical traditions, my style evolved to be a unique fusion of Italian and French music legacies, interwoven with a deep appreciation for the rhythmic richness of African-American and Latin-American music. This international approach to music performance, combined with a deep-seated interest in ethnomusicology, eventually led me to direct the first World Music workshop at the renowned Cité Internationale Universitaire de Paris, Europe’s largest international student campus, where my diverse influences culminated into a celebration of global musical diversity."
->>>>>>> c8ad820 (Added email config)
-=======
         p2: "Embracing a harmonious blend of musical traditions, my style evolved to be a unique fusion of Neapolitan and French music legacies, interwoven with a deep appreciation for the rhythmic richness of Southern American music. This international approach to music performance, combined with a deep-seated interest in ethnomusicology, eventually led me to direct the first World Music workshop at the renowned Cité Internationale Universitaire de Paris, Europe’s largest international student campus, where my diverse influences culminated into a celebration of global musical diversity."
->>>>>>> 5d5d40b (http.server>)
       },
       lessons: {
         h1: "Lessons",
@@ -93,36 +69,6 @@ document.addEventListener('DOMContentLoaded', function() {
         li1: "Harmonic-Imaginative capacity, involving the ability to recognize by ear or envision a harmonic progression and freely transform it through reharmonization exercises.",
         li2: "Rhythmic-Corporeal capacity, encompassing the ability to physically sense a rhythmic pulse and transfer it to piano accompaniment, with a specific focus on African-American and Latin-American rhythms.",
         li3: "Creative-Improvisational capacity, which means the ability to craft a melodic line that can adapt and interact with an underlying harmonic progression.",
-=======
-        p: [
-          "paragraph 1: I started playing the piano in Naples when I was 9, and I perfected my technique through classical music studies in Italy, before moving to France to study modern harmony and jazz.",
-          "paragraph 2: In Paris I completed a master’s degree in music and philosophy at the École Normale Supérieure de Paris, with a dissertation on the aesthetics of music and French structuralism. In the meantime, I focused my playing on jazz and started my career as a professional pianist amidst the intoxicating rhythms of the City of Light, where I performed regularly at the heart of Montmartre’s legendary cabarets and animated its intimate cafes nestled within the Latin Quarter.Embracing a harmonious blend of musical traditions, my style evolved to be a unique fusion of Italian and French music legacies, interwoven with a deep appreciation for the rhythmic richness of African-American and Latin-American music. This international approach to music performance, combined with a deep-seated interest in ethnomusicology, eventually led me to direct the first World Music workshop at the renowned Cité Internationale Universitaire de Paris, Europe’s largest international student campus, where my diverse influences culminated into a celebration of global musical diversity."
-        ]
-      },
-      lessons: {
-        h1: "Lessons",
-        p: [
-          "I started playing the piano in Naples when I was 9, and I perfected my technique through classical music studies in Italy, before moving to France to study modern harmony and jazz.",
-          "In Paris I completed a master’s degree in music and philosophy at the École Normale Supérieure de Paris, with a dissertation on the aesthetics of music and French structuralism. In the meantime, I focused my playing on jazz and started my career as a professional pianist in Parisian venues."
-        ]
->>>>>>> 0dcb1f4 (favicon added)
-=======
-        p1: "I started playing the piano in Naples when I was 9, and I perfected my technique through classical music studies in Italy, before moving to France to study modern harmony and jazz. In Paris I completed a master’s degree in music and philosophy at the École Normale Supérieure de Paris, with a dissertation on the aesthetics of music and French structuralism. In the meantime, I focused my playing on jazz and started my career as a professional pianist amidst the intoxicating rhythms of the City of Light, where I performed regularly at the heart of Montmartre’s legendary cabarets and animated its intimate cafes nestled within the Latin Quarter. ",
-        p2: "Embracing a harmonious blend of musical traditions, my style evolved to be a unique fusion of Italian and French music legacies, interwoven with a deep appreciation for the rhythmic richness of African-American and Latin-American music. This international approach to music performance, combined with a deep-seated interest in ethnomusicology, eventually led me to direct the first World Music workshop at the renowned Cité Internationale Universitaire de Paris, Europe’s largest international student campus, where my diverse influences culminated into a celebration of global musical diversity."
-=======
-        p1: "I started playing the piano in Naples when I was 9, and I perfected my technique through classical music studies in Italy, before moving to France to study modern harmony and jazz. In Paris, I obtained a master's degree in music and philosophy at the École Normale Supérieure de Paris, where I launched a research project on the aesthetics of music and French structuralism in partnership with the École des Hautes Études en Sciences Sociales and the Conservatory of Paris. In the meantime, I focused my playing on jazz and started my career as a professional pianist amidst the intoxicating rhythms of the City of Light, where I performed regularly at the heart of Montmartre’s legendary cabarets and enlivened the charming cafes nestled within the Latin Quarter.",
-        p2: "Embracing a harmonious blend of musical traditions, my style evolved to be a unique fusion of Italian and French music legacies, interwoven with a deep appreciation for the rhythmic richness of Southern American music. This international approach to music performance, combined with a deep-seated interest in ethnomusicology, eventually led me to direct the first World Music workshop at the renowned Cité Internationale Universitaire de Paris, Europe’s largest international student campus, where my diverse influences culminated into a celebration of global musical diversity."
->>>>>>> c40f0a8 (changed text)
-      },
-      lessons: {
-        h1: "Lessons",
-        p1: "Resulting from the combination of my musical education with my academic studies in philosophy, my unique teaching approach is based on the translation of principles from linguistic-anthropological structuralism into the realm of music pedagogy. In stark contrast to the traditional approach focused on technical perfection, my teaching style aims to directly tap into the inherent skills within each human being, which, when properly nurtured, enable each of us to communicate musically, using music as a language.",
-        p2: "Tailoring the pedagogical plan to each student's initial level, my lessons offer training methods to cultivate key capacities that facilitate authentic musical expression, namely:",
-        p3: "By combining Claude Lévi-Strauss's anthropological teaching with the pedagogy practices of masters like Kenny Werner and Jerry Bergonzi, my lessons place at the core of the learning process the development of the skills allowing the hidden musician within every human being to come to light. Because the broader goal is not only to understand how music works, but to gain a deeper and empathetic comprehension of how we work. Through music.",
-        li1: "Harmonic-Imaginative capacity, involving the ability to recognize by ear or envision a harmonic progression and freely transform it through reharmonization exercises.",
-        li2: "Rhythmic-Corporeal capacity, encompassing the ability to physically sense a rhythmic pulse and transfer it to piano accompaniment, with a specific focus on African-American and Latin-American rhythms.",
-        li3: "Creative-Improvisational capacity, which means the ability to craft a melodic line that can adapt and interact with an underlying harmonic progression.",
->>>>>>> 01f0e08 (added new translation sections)
       },
       navbar: {
         link1: "Home",
@@ -140,24 +86,9 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     french: {
       about: {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        h1: "Salut, je m'appelle Paolo",
-=======
         h1: "Bio",
->>>>>>> 3ead31e (added video and fixed testimonials layout for responsive design)
         p1: "J'ai commencé à jouer du piano à Naples à l'âge de 9 ans, et j'ai perfectionné ma technique en suivant des études de musique classique en Italie, avant de partir en France pour étudier l'harmonie moderne et le jazz. À Paris, j'ai obtenu un master en musique et philosophie à l'École Normale Supérieure de Paris, où j’ai lancé un projet de recherche portant sur l'esthétique de la musique et le structuralisme français en partenariat avec l’École des Hautes Études en Sciences Sociales et le Conservatoire National Supérieur de Musique et de Danse de Paris. Entre-temps, je me suis orienté vers le jazz et j'ai commencé ma carrière de pianiste professionnel dans les rythmes enivrants de la Ville Lumière, où je me produisais régulièrement au cœur des légendaires cabarets de Montmartre et animais les cafés intimes nichés dans le Quartier Latin.",
-<<<<<<< HEAD
-        p2: "Mon style a évolué pour devenir un mélange harmonieux de traditions musicales, une fusion unique d'héritages musicaux italiens et français, entrelacés avec une profonde appréciation de la richesse rythmique de la musique de l’Amérique du Sud. Cette approche internationale de la musique, associée à un intérêt profond pour l'ethnomusicologie, m'a finalement conduit à diriger le premier atelier de Musiques du Monde à la célèbre Cité Internationale Universitaire de Paris, le plus grand campus d'étudiants étrangers d'Europe, où mes diverses influences ont culminé dans une célébration de la diversité musicale mondiale.",
-=======
-        h1: "Bonjour, ici Paolo",
-<<<<<<< HEAD
-        p: "J'ai commencé le piano à Naples à l'âge de 9 ans et j'ai perfectionné ma technique en étudiant la musique classique en Italie, avant de m'installer en France pour étudier l'harmonie moderne et le jazz. À Paris, j’ai complété une maîtrise de musique et de philosophie à l’École Normale Supérieure de Paris, avec un mémoire sur l’esthétique de la musique et le structuralisme français. Parallèlement, j'oriente mon jeu vers le jazz et débute ma carrière de pianiste professionnel dans les salles parisiennes. Embrassant un mélange harmonieux de traditions musicales, mon style a évolué pour devenir une fusion unique des héritages musicaux du sud de l'Italie et de la France, entrelacés avec une profonde appréciation de la richesse rythmique de la musique brésilienne. Cette approche internationale de la musique m’a finalement amené à diriger le premier atelier de musique du monde à la célèbre Cité Internationale Universitaire de Paris, le plus grand campus étudiant international d’Europe, où mes diverses influences ont abouti à une célébration de la diversité musicale mondiale."
->>>>>>> 44366b9 (changed the font)
-=======
         p2: "Mon style a évolué pour devenir un mélange harmonieux de traditions musicales, une fusion unique d'héritages musicaux napolitains et français, entrelacés avec une profonde appréciation de la richesse rythmique de la musique de l’Amérique du Sud. Cette approche internationale de la musique, associée à un intérêt profond pour l'ethnomusicologie, m'a finalement conduit à diriger le premier atelier de Musiques du Monde à la célèbre Cité Internationale Universitaire de Paris, le plus grand campus d'étudiants étrangers d'Europe, où mes diverses influences ont culminé dans une célébration de la diversité musicale mondiale.",
->>>>>>> 5d5d40b (http.server>)
       },
       lessons: {
         h1: "Cours",
@@ -168,42 +99,6 @@ document.addEventListener('DOMContentLoaded', function() {
         li1: "La capacité harmonique-imaginative, qui implique l'aptitude à reconnaître à l'oreille ou à imaginer une progression harmonique et à la transformer librement par des exercices de réharmonisation.",
         li2: "La capacité rythmique-corporelle, englobant la capacité à percevoir physiquement une pulsation rythmique et à la transférer sur l'accompagnement au piano, avec un accent particulier sur les rythmes latino-américains.",
         li3: "La capacité de création et d'improvisation, c'est-à-dire la capacité de créer une ligne mélodique capable de s'adapter et d'interagir avec une progression harmonique sous-jacente.",
-=======
-        p: [
-          "J'ai commencé le piano à Naples à l'âge de 9 ans et j'ai perfectionné ma technique en étudiant la musique classique en Italie, avant de m'installer en France pour étudier l'harmonie moderne et le jazz.",
-          "À Paris, j’ai complété une maîtrise de musique et de philosophie à l’École Normale Supérieure de Paris, avec un mémoire sur l’esthétique de la musique et le structuralisme français. Parallèlement, j'oriente mon jeu vers le jazz et débute ma carrière de pianiste professionnel dans les salles parisiennes. Embrassant un mélange harmonieux de traditions musicales, mon style a évolué pour devenir une fusion unique des héritages musicaux du sud de l'Italie et de la France, entrelacés avec une profonde appréciation de la richesse rythmique de la musique brésilienne. Cette approche internationale de la musique m’a finalement amené à diriger le premier atelier de musique du monde à la célèbre Cité Internationale Universitaire de Paris, le plus grand campus étudiant international d’Europe, où mes diverses influences ont abouti à une célébration de la diversité musicale mondiale."
-        ]
-      },
-      lessons: {
-        h1: "Cours",
-        p: [
-          "J'ai commencé le piano à Naples à l'âge de 9 ans et j'ai perfectionné ma technique en étudiant la musique classique en Italie, avant de m'installer en France pour étudier l'harmonie moderne et le jazz.",
-          "À Paris, j’ai complété une maîtrise de musique et de philosophie à l’École Normale Supérieure de Paris, avec un mémoire sur l’esthétique de la musique et le structuralisme français. Parallèlement, j'oriente mon jeu vers le jazz et débute ma carrière de pianiste professionnel dans les salles parisiennes. Embrassant un mélange harmonieux de traditions musicales, mon style a évolué pour devenir une fusion unique des héritages musicaux du sud de l'Italie et de la France, entrelacés avec une profonde appréciation de la richesse rythmique de la musique brésilienne. Cette approche internationale de la musique m’a finalement amené à diriger le premier atelier de musique du monde à la célèbre Cité Internationale Universitaire de Paris, le plus grand campus étudiant international d’Europe, où mes diverses influences ont abouti à une célébration de la diversité musicale mondiale."
-        ]
->>>>>>> 0dcb1f4 (favicon added)
-=======
-        h1: "Salut, je m'appelle Paolo",
-        p1: "J'ai commencé à jouer du piano à Naples à l'âge de 9 ans, et j'ai perfectionné ma technique en suivant des études de musique classique en Italie, avant de partir en France pour étudier l'harmonie moderne et le jazz. À Paris, j'ai obtenu un master en musique et philosophie à l'École Normale Supérieure de Paris, où j’ai lancé un projet de recherche portant sur l'esthétique de la musique et le structuralisme français en partenariat avec l’École des Hautes Études en Sciences Sociales et le Conservatoire National Supérieur de Musique et de Danse de Paris. Entre-temps, je me suis orienté vers le jazz et j'ai commencé ma carrière de pianiste professionnel dans les rythmes enivrants de la Ville Lumière, où je me produisais régulièrement au cœur des légendaires cabarets de Montmartre et animais les cafés intimes nichés dans le Quartier Latin.",
-        p2: "Mon style a évolué pour devenir un mélange harmonieux de traditions musicales, une fusion unique d'héritages musicaux italiens et français, entrelacés avec une profonde appréciation de la richesse rythmique de la musique de l’Amérique du Sud. Cette approche internationale de la musique, associée à un intérêt profond pour l'ethnomusicologie, m'a finalement conduit à diriger le premier atelier de Musiques du Monde à la célèbre Cité Internationale Universitaire de Paris, le plus grand campus d'étudiants étrangers d'Europe, où mes diverses influences ont culminé dans une célébration de la diversité musicale mondiale.",
-      },
-      lessons: {
-        h1: "Cours",
-<<<<<<< HEAD
-        p1: "Résultant de la combinaison de mon éducation musicale avec mes études académiques en philosophie, ma démarche pédagogique unique repose sur la traduction des principes du structuralisme linguistique-anthropologique dans le domaine de la pédagogie musicale. En contraste marqué avec l'approche traditionnelle axée sur la perfection technique, mon style d'enseignement vise à exploiter directement les compétences inhérentes à chaque être humain, qui, lorsqu'elles sont correctement nourries, nous permettent de communiquer musicalement, en utilisant la musique comme un langage.",
-        p2: "En adaptant le plan pédagogique au niveau initial de chaque élève, mes leçons proposent des méthodes de formation visant à cultiver des capacités clés qui facilitent une expression musicale authentique, à savoir :",
-        p3: "En combinant l'enseignement anthropologique de Claude Lévi-Strauss avec les pratiques pédagogiques de maîtres tels que Kenny Werner et Jerry Bergonzi, mes leçons placent au cœur du processus d'apprentissage le développement des compétences permettant au musicien caché en chaque être humain de se révéler. Car l'objectif plus large est non seulement de comprendre comment la musique fonctionne, mais aussi d'acquérir une compréhension plus profonde et empathique de comment nous fonctionnons. À travers la musique.",
-        li1: "La capacité Harmonico-Imaginative, impliquant la capacité de reconnaître par l'oreille ou d'envisager une progression harmonique et de la transformer librement grâce à des exercices de réharmonisation.",
-        li2: "La capacité Rhythmo-Corporelle, englobant la capacité de ressentir physiquement une pulsation rythmique et de la transférer à l'accompagnement au piano, en mettant particulièrement l'accent sur les rythmes afro-américains et latino-américains.",
-        li3: "La capacité Créative-Improvisatrice, signifiant la capacité à créer une ligne mélodique qui peut s'adapter et interagir avec une progression harmonique sous-jacente.",
->>>>>>> 01f0e08 (added new translation sections)
-=======
-        p1: "Résultant de la combinaison de ma formation musicale et de mes études académiques en philosophie, mon approche pédagogique unique est basée sur la traduction des principes du structuralisme linguistique-anthropologique dans le domaine de la pédagogie musicale. Contrairement à l'approche traditionnelle axée sur la perfection technique, mon style d'enseignement vise à exploiter directement les compétences inhérentes à chaque être humain qui, lorsqu'elles sont correctement entretenues, permettent à chacun d'entre nous de communiquer musicalement, en utilisant la musique comme un langage.",
-        p2: "En adaptant le plan pédagogique au niveau de chaque élève, mes cours proposent des méthodes d'entraînement pour cultiver les capacités clés qui facilitent l'expression musicale authentique, à savoir:",
-        p3: "En combinant l'enseignement anthropologique de Claude Lévi-Strauss avec les pratiques pédagogiques de maîtres tels que Kenny Werner et Jerry Bergonzi, mes cours placent au cœur du processus d'apprentissage le développement des compétences permettant au musicien caché dans chaque être humain de se révéler. Car l'objectif général n'est pas seulement de comprendre comment fonctionne la musique, mais d'acquérir une compréhension plus profonde et empathique de la façon dont nous fonctionnons. À travers la musique.",
-        li1: "La capacité harmonique-imaginative, qui implique l'aptitude à reconnaître à l'oreille ou à imaginer une progression harmonique et à la transformer librement par des exercices de réharmonisation.",
-        li2: "La capacité rythmique-corporelle, englobant la capacité à percevoir physiquement une pulsation rythmique et à la transférer sur l'accompagnement au piano, avec un accent particulier sur les rythmes latino-américains.",
-        li3: "La capacité de création et d'improvisation, c'est-à-dire la capacité de créer une ligne mélodique capable de s'adapter et d'interagir avec une progression harmonique sous-jacente.",
->>>>>>> c40f0a8 (changed text)
       },
       navbar: {
         link1: "Accueil",
@@ -221,60 +116,7 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     italian: {
       about: {
-<<<<<<< HEAD
-        h1: "Ciao, sono Paolo",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        p1: "Ho iniziato a suonare il pianoforte a 9 anni a Napoli, dove ho perfezionato la mia tecnica dedicandomi a studi classici prima di trasferirmi in Francia per studiare armonia moderna e jazz. A Parigi, ho ottenuto una laurea magistrale in filosofia e musica all’École Normale Supérieure, dando avvio ad un progetto di ricerca dedicato all’estetica musicale e allo strutturalismo francese condotto in partenariato con l’École des Hautes Études en Sciences Sociales ed il Conservatoire National Supérieur de Musique et de Danse de Paris. Parallelamente, mi sono concentrato sul jazz ed ho cominciato la mia carriera di pianista professionista nella vibrante scena musicale della capitale francese, esibendomi regolarmente negli iconici cabaret di Montmartre ed animando i caffè-concerto del Quartiere Latino.",
-        p2: "Sviluppatosi al crocevia di differenti fonti d’ispirazione, il mio stile si è presto trasformato in un’originale fusione delle tradizioni musicali d’Italia e Francia, saldamente intrecciate con una profonda passione per la ricchezza del patrimonio ritmico dell’America Latina. Tale apertura internazionale, combinata con il mio interesse per l’etnomusicologia, ha così trovato coronamento nella mia attività didattica, portandomi a dirigere il primo laboratorio dedicato alle tradizioni musicali del mondo alla Cité Internationale Universitaire de Paris. Ospitata nel campus internazionale più grande d’Europa nel confronto diretto con più di 10 mila studenti di oltre 150 nazionalità differenti, la mia missione didattica è nata sotto il segno della diversità musicale globale."
-=======
-        p: "",
-=======
->>>>>>> c8ad820 (Added email config)
-        p: "Ho iniziato a suonare il pianoforte a Napoli all'età di 9 anni, e ho perfezionato la mia tecnica attraverso gli studi di musica classica in Italia, prima di trasferirmi in Francia per studiare armonia moderna e jazz. A Parigi ho conseguito un master in musica e filosofia presso l’École Normale Supérieure de Paris, con una tesi sull’estetica della musica e sullo strutturalismo francese. Nel frattempo mi sono concentrato sul jazz e ho iniziato la mia carriera come pianista professionista nei locali parigini. Abbracciando un'armoniosa miscela di tradizioni musicali, il mio stile si è evoluto fino a diventare una fusione unica delle eredità musicali dell'Italia meridionale e della Francia, intrecciate con un profondo apprezzamento per la ricchezza ritmica della musica brasiliana. Questo approccio internazionale alla musica mi ha portato alla fine a dirigere il primo workshop di World Music presso la rinomata Cité Internationale Universitaire de Paris, il più grande campus studentesco internazionale d’Europa, dove le mie diverse influenze sono culminate in una celebrazione della diversità musicale globale."
->>>>>>> 44366b9 (changed the font)
-      },
-      lessons: {
-        h1: "Lezioni",
-        p1: "Risultato della combinazione della mia formazione musicale con i miei studi accademici in filosofia, il mio originale approccio all’insegnamento si fonda sulla traslazione dei principi dello strutturalismo linguistico-antropologico nel campo della pedagogia musicale. In aperto contrasto con l’approccio tradizionale focalizzato sullo sviluppo di una perfezione tecnica, il mio stile di insegnamento si propone di agire in modo diretto sulle capacità già presenti in ciascun essere umano, che se sviluppate adeguatamente permettono a ciascuno di noi di comunicare musicalmente, servendosi della musica come linguaggio.",
-        p2: "Adattando il piano pedagogico al livello di partenza di ciascuno studente, nelle mie lezioni propongo delle procedure di allenamento per sviluppare le capacità chiave che permettono di esprimersi musicalmente in modo originale, ossia:",
-        p3: "Combinando l’insegnamento antropologico di Claude Lévi-Strauss con le pratiche della pedagogia musicale dei maestri Kenny Werner e Jerry Bergonzi, le mie lezioni mettono dunque al centro del processo di apprendimento lo sviluppo di quelle capacità che permettono al musicista nascosto dentro di noi di venire alla luce. Perché l’obiettivo più vasto non è semplicemente comprendere come funziona la musica, ma acquisire una consapevolezza sempre più chiara di come funzioniamo noi. Attraverso la musica.",
-        li1: "Capacità armonico-immaginativa, ossia la capacità di riconoscere ad orecchio o immaginare una progressione armonica e trasformarla liberamente attraverso l’esercizio della riarmonizzazione.",
-        li2: "Capacità ritmico-corporea, ossia la capacità di sentire corporeamente una pulsione ritmica da trasferire sul pianoforte nell’accompagnamento, con particolare attenzione alle ritmiche swing e latino-americane.",
-        li3: "Capacità creativo-improvvisativa, ossia la capacità di creare una linea melodica che sappia adattarsi e dialogare con una progressione armonica soggiacente.",
-=======
-        p: [
-          "italianI started playing the piano in Naples when I was 9, and I perfected my technique through classical music studies in Italy, before moving to France to study modern harmony and jazz.",
-          "italianIn Paris I completed a master’s degree in music and philosophy at the École Normale Supérieure de Paris, with a dissertation on the aesthetics of music and French structuralism. In the meantime, I focused my playing on jazz and started my career as a professional pianist amidst the intoxicating rhythms of the City of Light, where I performed regularly at the heart of Montmartre’s legendary cabarets and animated its intimate cafes nestled within the Latin Quarter.Embracing a harmonious blend of musical traditions, my style evolved to be a unique fusion of Italian and French music legacies, interwoven with a deep appreciation for the rhythmic richness of African-American and Latin-American music. This international approach to music performance, combined with a deep-seated interest in ethnomusicology, eventually led me to direct the first World Music workshop at the renowned Cité Internationale Universitaire de Paris, Europe’s largest international student campus, where my diverse influences culminated into a celebration of global musical diversity."
-        ]
-      },
-      lessons: {
-        h1: "Lezioni",
-        p: [
-          "italianI started playing the piano in Naples when I was 9, and I perfected my technique through classical music studies in Italy, before moving to France to study modern harmony and jazz.",
-          "italianIn Paris I completed a master’s degree in music and philosophy at the École Normale Supérieure de Paris, with a dissertation on the aesthetics of music and French structuralism. In the meantime, I focused my playing on jazz and started my career as a professional pianist in Parisian venues."
-        ]
->>>>>>> 0dcb1f4 (favicon added)
-=======
-        p1: "Ho iniziato a suonare il pianoforte a Napoli quando avevo 9 anni e ho perfezionato la mia tecnica attraverso gli studi di musica classica in Italia, prima di trasferirmi in Francia per studiare l'armonia moderna e il jazz. A Parigi ho completato un master in musica e filosofia presso l'École Normale Supérieure de Paris, con una tesi sull'estetica della musica e il structuralismo francese. Nel frattempo, ho concentrato la mia esecuzione sul jazz e ho avviato la mia carriera come pianista professionista tra i ritmi avvolgenti della Città della Luce, dove mi sono esibito regolarmente nel cuore dei leggendari cabaret di Montmartre e ho animato i suoi caffè intimi nel Quartiere Latino.",
-        p2: "Abbracciando un armonioso miscuglio di tradizioni musicali, il mio stile si è evoluto in una fusione unica delle eredità musicali italiane e francesi, intrecciata con una profonda apprezzamento per la ricchezza ritmica della musica afroamericana e latinoamericana. Questo approccio internazionale alla performance musicale, combinato con un profondo interesse per l'etnomusicologia, mi ha infine portato a dirigere il primo workshop di musica del mondo presso la rinomata Cité Internationale Universitaire de Paris, il più grande campus studentesco internazionale d'Europa, dove le mie influenze diverse hanno culminato in una celebrazione della diversità musicale globale."
-      },
-      lessons: {
-        h1: "Lezioni",
-        p1: "Risultante dalla combinazione della mia formazione musicale con i miei studi accademici in filosofia, il mio approccio unico all'insegnamento si basa sulla traduzione dei principi del structuralismo linguistico-antropologico nel campo della pedagogia musicale. In netto contrasto con l'approccio tradizionale focalizzato sulla perfezione tecnica, il mio stile di insegnamento mira a attingere direttamente alle abilità innate in ciascun essere umano, le quali, quando coltivate adeguatamente, ci consentono di comunicare musicalmente, utilizzando la musica come un linguaggio.",
-        p2: "Adattando il piano pedagogico al livello iniziale di ciascuno studente, le mie lezioni offrono metodi di allenamento per coltivare le capacità chiave che facilitano un'autentica espressione musicale, ovvero:",
-        p3: "Unendo l'insegnamento antropologico di Claude Lévi-Strauss alle pratiche pedagogiche di maestri come Kenny Werner e Jerry Bergonzi, le mie lezioni pongono al centro del processo di apprendimento lo sviluppo delle abilità che permettono al musicista nascosto in ogni essere umano di emergere. Perché l'obiettivo più ampio non è solo comprendere come funziona la musica, ma anche acquisire una comprensione più profonda ed empatica di come funzioniamo. Attraverso la musica.",
-        li1: "La capacità Armonico-Immaginativa, che coinvolge la capacità di riconoscere per orecchio o immaginare una progressione armonica e trasformarla liberamente attraverso esercizi di riarmonizzazione.",
-        li2: "La capacità Ritmico-Corporea, che comprende la capacità di percepire fisicamente un impulso ritmico e trasferirlo all'accompagnamento al pianoforte, con un focus specifico sui ritmi afroamericani e latinoamericani.",
-        li3: "La capacità Creativo-Improvisativa, che significa la capacità di creare una linea melodica in grado di adattarsi e interagire con una progressione armonica sottostante.",
->>>>>>> 01f0e08 (added new translation sections)
-=======
-=======
         h1: "Bio",
->>>>>>> 3ead31e (added video and fixed testimonials layout for responsive design)
         p1: "Ho iniziato a suonare il pianoforte a 9 anni a Napoli, dove ho perfezionato la mia tecnica dedicandomi a studi classici prima di trasferirmi in Francia per studiare armonia moderna e jazz. A Parigi, ho ottenuto una laurea magistrale in filosofia e musica all’École Normale Supérieure, dando avvio ad un progetto di ricerca dedicato all’estetica musicale e allo strutturalismo francese condotto in partenariato con l’École des Hautes Études en Sciences Sociales ed il Conservatoire National Supérieur de Musique et de Danse de Paris. Parallelamente, mi sono concentrato sul jazz ed ho cominciato la mia carriera di pianista professionista nella vibrante scena musicale della capitale francese, esibendomi regolarmente negli iconici cabaret di Montmartre ed animando i caffè-concerto del Quartiere Latino.",
         p2: "Sviluppatosi al crocevia di differenti fonti d’ispirazione, il mio stile si è presto trasformato in un’originale fusione delle tradizioni musicali di Napoli e Francia, saldamente intrecciate con una profonda passione per la ricchezza del patrimonio ritmico dell’America Latina. Tale apertura internazionale, combinata con il mio interesse per l’etnomusicologia, ha così trovato coronamento nella mia attività didattica, portandomi a dirigere il primo laboratorio dedicato alle tradizioni musicali del mondo alla Cité Internationale Universitaire de Paris. Ospitata nel campus internazionale più grande d’Europa nel confronto diretto con più di 10 mila studenti di oltre 150 nazionalità differenti, la mia missione didattica è nata sotto il segno della diversità musicale globale."
       },
@@ -287,7 +129,6 @@ document.addEventListener('DOMContentLoaded', function() {
         li1: "Capacità armonico-immaginativa, ossia la capacità di riconoscere ad orecchio o immaginare una progressione armonica e trasformarla liberamente attraverso l’esercizio della riarmonizzazione.",
         li2: "Capacità ritmico-corporea, ossia la capacità di sentire corporeamente una pulsione ritmica da trasferire sul pianoforte nell’accompagnamento, con particolare attenzione alle ritmiche swing e latino-americane.",
         li3: "Capacità creativo-improvvisativa, ossia la capacità di creare una linea melodica che sappia adattarsi e dialogare con una progressione armonica soggiacente.",
->>>>>>> c40f0a8 (changed text)
       },
       navbar: {
         link1: "Home",
@@ -320,17 +161,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 01f0e08 (added new translation sections)
   // Function to update content of the "About" section
   function updateAboutContent(aboutData) {
     const aboutParagraph = document.getElementById('about-paragraph');
     const h1 = aboutParagraph.querySelector('h1');
     const p1 = aboutParagraph.querySelector('p');
     const p2 = aboutParagraph.querySelectorAll('p')[1]; // Select the second paragraph using querySelectorAll and index 1
-<<<<<<< HEAD
   
     h1.textContent = aboutData.h1;
     p1.textContent = aboutData.p1;
@@ -358,47 +194,6 @@ document.addEventListener('DOMContentLoaded', function() {
     p1.textContent = lessonsData.p1;
     p2.textContent = lessonsData.p2;
     p3.textContent = lessonsData.p3;
-=======
-  // Function to update content of a paragraph
-  function updateParagraphContent(sectionData, section) {
-    const sectionId = section === 'about' ? 'about-paragraph' : 'lessons-paragraph';
-    const sectionElement = document.getElementById(sectionId);
-    const h1 = sectionElement.querySelector('h1');
-    const paragraphContainer = sectionElement.querySelector('.paragraph-container');
-
-    h1.textContent = sectionData.h1;
-    paragraphContainer.innerHTML = ''; // Clear existing content
-=======
->>>>>>> 01f0e08 (added new translation sections)
-  
-    h1.textContent = aboutData.h1;
-    p1.textContent = aboutData.p1;
-    p2.textContent = aboutData.p2;
-  }
-
-  // Function to update content of the "Lessons" section
-  function updateLessonsContent(lessonsData) {
-    const lessonsParagraph = document.getElementById('lessons-paragraph');
-    const h1 = lessonsParagraph.querySelector('h1');
-    const p1 = lessonsParagraph.querySelector('p');
-    const p2 = lessonsParagraph.querySelectorAll('p')[1];
-    const p3 = lessonsParagraph.querySelectorAll('p')[2];
-    const ul = lessonsParagraph.querySelector('ul');
-    const liElements = ul.querySelectorAll('li');
-
-    // Update the content of the list items
-    for (let i = 0; i < liElements.length; i++) {
-      liElements[i].textContent = lessonsData["li" + (i + 1)];
-    }
-<<<<<<< HEAD
->>>>>>> 0dcb1f4 (favicon added)
-=======
-  
-    h1.textContent = lessonsData.h1;
-    p1.textContent = lessonsData.p1;
-    p2.textContent = lessonsData.p2;
-    p3.textContent = lessonsData.p3;
->>>>>>> 01f0e08 (added new translation sections)
   }
 
     // Function to update navbar content
@@ -540,8 +335,6 @@ document.addEventListener('DOMContentLoaded', function() {
     playSong(currentSongIndex);
 });
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 // // Email configuration
 
 // document.addEventListener('DOMContentLoaded', function() {
@@ -574,7 +367,6 @@ document.addEventListener('DOMContentLoaded', function() {
       //   function(error) {
       //     console.log("Email sending failed", error);
       //     console.error(error);
-<<<<<<< HEAD
 
       //     // Additional debugging information:
       //     if (error.response) {
@@ -648,172 +440,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     window.addEventListener("load", displayRandomTestimonials);
-<<<<<<< HEAD
-=======
-document.addEventListener('DOMContentLoaded', function() {
-    const requestQuoteButtons = document.querySelectorAll('.request-quote-button');
-
-    requestQuoteButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            // You can implement a custom form or link to a contact form for requesting a quote
-            // Example: window.location.href = 'contact.html';
-        });
-    });
 });
-<<<<<<< HEAD
-document.addEventListener("DOMContentLoaded", function() {
-    const burger = document.querySelector(".burger");
-    const navLinks = document.querySelector(".nav-links");
-
-    burger.addEventListener("click", () => {
-        navLinks.classList.toggle("active");
-    });
-
-    // Add this event listener to close the mobile menu when a navigation link is clicked
-    const navLinksList = document.querySelectorAll(".nav-links li");
-    navLinksList.forEach(link => {
-        link.addEventListener("click", () => {
-            navLinks.classList.remove("active");
-        });
-    });
-
-    window.addEventListener("scroll", () => {
-        if (window.scrollY > 100) {
-            document.querySelector(".navbar").classList.add("active");
-            document.querySelector(".nav-links").classList.add("active-bg");
-        } else {
-            document.querySelector(".navbar").classList.remove("active");
-            document.querySelector(".nav-links").classList.remove("active-bg");
-        }
-    });
->>>>>>> aaa46d3 (initial commit)
-});
-
-const audio = document.getElementById('audio');
-const playButton = document.getElementById('play-button');
-const waveform = document.getElementById('waveform');
-const soundcloudLink = document.getElementById('soundcloud-link');
-
-// Add an event listener to the play button
-playButton.addEventListener('click', () => {
-    if (audio.paused) {
-        audio.play();
-        playButton.textContent = 'Pause';
-    } else {
-        audio.pause();
-        playButton.textContent = 'Play';
-    }
-});
-
-// You can use additional libraries to visualize the waveform.
-
-// You can embed a SoundCloud link as shown in the HTML.
-=======
-// Email configuration
-=======
-// // Email configuration
->>>>>>> f28ec63 (updated gitignore and readme file)
-
-// document.addEventListener('DOMContentLoaded', function() {
-//   emailjs.init("public key");
-
-//   console.log("DOMContentLoaded event fired");
-//   const contactForm = document.getElementById("contact-form");
-//   const successMessage = document.getElementById("success-message");
-//   const errorMessage = document.getElementById("error-message");
-
-//   // Add a submit event listener to the form
-//   contactForm.addEventListener("submit", function(event) {
-//     event.preventDefault(); // Prevent the default form submission
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-  // Send the email
-  emailjs.send("service_djf8d02", "template_id", {
-    from_name: name,
-    from_email: email,
-    message: message,
-  }).then(
-    function(response) {
-      console.log("Email sent successfully", response);
-      // You can display a success message to the user
-    },
-    function(error) {
-      console.log("Email sending failed", error);
-      // You can display an error message to the user
-    }
-  );
-});
-});
->>>>>>> c8ad820 (Added email config)
-=======
-      // Get form data
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
-    const message = document.getElementById("message").value;
-=======
-//       // Get form data
-//     const name = document.getElementById("name").value;
-//     const email = document.getElementById("email").value;
-//     const message = document.getElementById("message").value;
->>>>>>> f28ec63 (updated gitignore and readme file)
-
-//     console.log("Form submitted");
-
-//     // Use the emailjs.sendForm method to send the form
-//     emailjs
-//       .sendForm("service_id", "template_id", contactForm)
-//       .then(
-//         function(response) {
-//           console.log("Email sent successfully", response);
-//           successMessage.style.display = "block";
-//         },
-//         function(error) {
-//           console.log("Email sending failed", error);
-//           console.error(error);
-
-<<<<<<< HEAD
-          // Additional debugging information:
-          if (error.response) {
-            console.log("Response data:", error.response.data);
-            console.log("HTTP status:", error.response.status);
-            console.log("Headers:", error.response.headers);
-          }
-          errorMessage.style.display = "block";
-        }
-      );
-  });
-});
->>>>>>> 378b1e0 (email configuration complete and testing done)
-=======
-//           // Additional debugging information:
-//           if (error.response) {
-//             console.log("Response data:", error.response.data);
-//             console.log("HTTP status:", error.response.status);
-//             console.log("Headers:", error.response.headers);
-//           }
-//           errorMessage.style.display = "block";
-//         }
-//       );
-=======
-
-      //     // Additional debugging information:
-      //     if (error.response) {
-      //       console.log("Response data:", error.response.data);
-      //       console.log("HTTP status:", error.response.status);
-      //       console.log("Headers:", error.response.headers);
-      //     }
-      //     errorMessage.style.display = "block";
-      //   }
-      // );
->>>>>>> 5ae273e (updated readme file)
-//   });
-// });
->>>>>>> f28ec63 (updated gitignore and readme file)
-=======
-});
->>>>>>> 40361c2 (Added testimonials section)
-=======
 
 // test
 
@@ -842,9 +469,6 @@ document.addEventListener('DOMContentLoaded', function() {
   // Show the first testimonial initially
   showTestimonial(currentIndex);
 });
-<<<<<<< HEAD
->>>>>>> 039e4da (added testimonials)
-=======
 
 document.addEventListener('DOMContentLoaded', function() {
   const video = document.querySelector('iframe');
@@ -857,4 +481,3 @@ document.addEventListener('DOMContentLoaded', function() {
       video.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
   }
 });
->>>>>>> 3ead31e (added video and fixed testimonials layout for responsive design)

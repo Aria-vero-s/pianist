@@ -1,7 +1,7 @@
 # Pianist Portfolio Website
 ![Pianist Portfolio Image](mockup.png "website mockup")
 
-Welcome to the README file for the Pianist Portfolio website. This single-page website showcases the informations of a pianist in an elegant and functional design. The website is divided into four main sections: Header, About, Lessons, and Contact Form.
+Welcome to the README file for the Pianist Portfolio website. This single-page website showcases the information of a pianist in an elegant and functional design. The website is divided into four main sections: Header, About, Lessons, and Contact Form.
 
 [Live link](https://aria-vero-s.github.io/pianist/).
 
@@ -64,6 +64,7 @@ const translations = {
 
 ### 2. About
 - A biography section with information about the pianist.
+- The client requested a video to be displayed on the right side of the About section later on. The video is an embedded YouTube video linked to the client's YouTube channel.
 - A music player for showcasing the pianist's music, with playback controls.
 - Music player functionality implemented using JavaScript.
 
@@ -83,6 +84,7 @@ const translations = {
 ### 3. Lessons
 - A section providing text and a list of lesson details.
 - Easily customizable to add or modify lesson information.
+- The testimonial section includes a JavaScript carousel that allows users to view one testimonial at a time. The control buttons facilitate navigation between testimonials, enabling users to effortlessly move forward or backward in the carousel.
 
 ### 4. Contact Form
 - A functional contact form using [Email.js](https://www.emailjs.com/) for sending messages to the pianist's email.
@@ -116,7 +118,7 @@ const translations = {
 - A link to the developer's GitHub account in the copyright section.
 
 ### Design
-- Dark theme with light purple highlights for an elegant and visually appealing look.
+- Dark theme with light purple highlights for an elegant and visually appealing look. The ```background-color: rgba(3, 3, 3, 0.7);``` found throughout the page mimics the reflection of the piano.
 
 ![Color Palette](palette.png "color palette")
 ```
@@ -143,7 +145,7 @@ Please note that 'London Oatmeal' is a Demo Font provided for **PERSONAL USE** o
 
 ### Image Credits
 
-The image used in this project, the full-page photograph of the pianist, were generously provided by the pianist himself.
+The images used in this project, the full-page photographs of the pianist and of the piano, were generously provided by the pianist himself.
 
 The favicon used in this project was also thoughtfully designed by Paolo Rubinacci, contributing to the website's unique visual identity.
 
@@ -208,6 +210,6 @@ If you have any questions, feedback, or need assistance, feel free to reach out:
 
 Your input and feedback is welcomed.
 
-Thank you for visiting Pianist Portfolio!
+Thank you for visiting!
 
 ---

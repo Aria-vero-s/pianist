@@ -1,101 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&family=Playfair+Display:ital,wght@0,400;0,900;1,400;1,900&display=swap");
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,500;1,6..96,600;1,6..96,700;1,6..96,800;1,6..96,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;0,6..96,900;1,6..96,400;1,6..96,800;1,6..96,900&family=EB+Garamond:ital,wght@0,400;0,600;0,800;1,600;1,800&family=Merriweather:ital,wght@0,300;0,700;1,900&display=swap');
 
 @font-face {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   font-family: 'VVDS london oatmeal';
   src: url('VVDS London Oatmeal-Sans.woff') format('woff');
-<<<<<<< HEAD
 }
-=======
->>>>>>> aaa46d3 (initial commit)
-=======
-  font-family: 'VVDS London Oatmeal';
-  src: url('vvds_london_oatmeal.woff2') format('woff2'),
-       url('vvds_london_oatmeal.woff') format('woff');
-=======
-  font-family: 'vvds_london_oatmealsans';
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  font-family: 'VVDS london oatmeal';
->>>>>>> 1d07f5e (font fix for mobile)
-  src: url('vvds_london_oatmeal-sans-webfont.woff2') format('woff2'),
-       url('vvds_london_oatmeal-sans-webfont.woff') format('woff');
->>>>>>> cf820c8 (change font)
-=======
-  src: url('vvds_london_oatmeal-sans-webfont.woff2') format('font/woff2'),
-       url('vvds_london_oatmeal-sans-webfont.woff') format('font/woff');
->>>>>>> f2d2c80 (font format added)
-=======
-  src: url('vvds_london_oatmeal-sans-webfont.woff2') format('woff2'),
-       url('vvds_london_oatmeal-sans-webfont.woff') format('woff');
->>>>>>> 42b3831 (fixed font issue)
-  font-weight: normal;
-  font-style: normal;
-=======
->>>>>>> e44197a (font)
-}
->>>>>>> 406340c (Changed font)
 
 /*
 font-family: 'Lato', sans-serif;
 font-family: 'Playfair Display', serif;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 font-family: 'VVDS london oatmeal';
-<<<<<<< HEAD
-=======
->>>>>>> aaa46d3 (initial commit)
-=======
-font-family: "VVDS London Oatmeal";
->>>>>>> 77051e8 (cleaned the CSS)
-=======
-font-family: 'vvds_london_oatmealsans';
->>>>>>> 42b3831 (fixed font issue)
-=======
-font-family: 'VVDS london oatmeal';
->>>>>>> 1d07f5e (font fix for mobile)
-=======
 font-family: 'Bodoni Moda', serif;
 font-family: 'EB Garamond', serif;
 font-family: 'Merriweather', serif;
->>>>>>> 3ead31e (added video and fixed testimonials layout for responsive design)
 */
 
 /*
 colors:
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5ae273e (updated readme file)
 
 antiflash-white: #f0f1f3;
 platinum: #d8dbe2;
 periwinkle: #c6b7ff;
-<<<<<<< HEAD
-<<<<<<< HEAD
 jet: #333333;
-=======
-light-purple: #d8dbe2;
-powder-blue: #a9bcd0;
-aqua: #58a4b0;
-charcoal: #373f51;
-black: #1b1b1e;
->>>>>>> aaa46d3 (initial commit)
-=======
-charcoal: #373f51;
-=======
->>>>>>> 027300f (small style adjustments)
-jet: #333333;
->>>>>>> 5ae273e (updated readme file)
 */
 
 * {
@@ -109,79 +37,29 @@ html {
 }
 
 body {
-<<<<<<< HEAD
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   margin: 0;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 027300f (small style adjustments)
   background-color: #333333;
   color: #f0f1f3;
 }
 
 /* Container for the background image */
 .background-image-container {
-=======
-  background-color: #1b1b1e;
-=======
-  background-color: #000;
->>>>>>> 98eac14 (smaller screen adjustments)
-  color: #d8dbe2;
-}
-
-<<<<<<< HEAD
-/* dark blurry overlay */
-body::before {
-  content: "";
-  filter: grayscale(100%);
-  background: rgba(0, 0, 0, 0.5);
->>>>>>> 77051e8 (cleaned the CSS)
-=======
-/* Container for the background image */
-.background-image-container {
->>>>>>> 98eac14 (smaller screen adjustments)
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: -1;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 98eac14 (smaller screen adjustments)
   background-image: url("header-image4.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-  filter: grayscale(100%);
-  backdrop-filter: blur(5px);
->>>>>>> 04d265e (background image fix)
-}
-
-/* Dark blurry overlay */
-.background-image-container::before {
-  content: "";
-  background: rgba(3, 3, 3, 0.5);
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
->>>>>>> 98eac14 (smaller screen adjustments)
   filter: grayscale(100%);
   backdrop-filter: blur(5px);
 }
 
-<<<<<<< HEAD
 /* Dark blurry overlay */
 .background-image-container::before {
   content: "";
@@ -196,43 +74,15 @@ body::before {
   backdrop-filter: blur(5px);
 }
 
-=======
->>>>>>> 98eac14 (smaller screen adjustments)
 /* smaller screens */
 @media (max-width: 768px) {
   .background-image-container {
     background-size: cover;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    background-position: center;
-    height: 100vh;
-  }
-=======
-  font-family: "Lato", sans-serif;
-  margin: 0;
-  background-color: #1b1b1e;
-  color: #d8dbe2;
->>>>>>> aaa46d3 (initial commit)
-}
-
-=======
-  backdrop-filter: blur(5px);
-}
-
->>>>>>> 77051e8 (cleaned the CSS)
-=======
-  }
-}
-
-
->>>>>>> 98eac14 (smaller screen adjustments)
-=======
     background-position: center;
     height: 100vh;
   }
 }
 
->>>>>>> 37fd146 (background fix for mobile view)
 section {
     margin: 100px;
     padding: 80px;
@@ -243,13 +93,8 @@ section {
 
 @media (max-width: 600px) {
     section {
-<<<<<<< HEAD
         margin: 40px;
         padding: 40px;
-=======
-        margin: 20px;
-        padding: 20px;
->>>>>>> aaa46d3 (initial commit)
         text-align: left;
         width: 100%;
         margin: 0 auto;
@@ -259,52 +104,28 @@ section {
 header {
   background-image: url("header-image.jpg");
   background-size: cover;
-<<<<<<< HEAD
   background-position: center;
   text-align: center;
   padding: 20px 0;
-=======
-  background-position: bottom;
-  color: #d8dbe2;
-  text-align: center;
-  padding: 100px 0;
->>>>>>> aaa46d3 (initial commit)
   height: 100vh;
 }
 
 h1 {
-<<<<<<< HEAD
-  font-family: "Playfair Display", serif;
-<<<<<<< HEAD
-=======
   font-family: 'Bodoni Moda', serif;
   font-weight: 800;
->>>>>>> 3ead31e (added video and fixed testimonials layout for responsive design)
   color: #c6b7ff;
-=======
-  color: #58a4b0;
->>>>>>> aaa46d3 (initial commit)
   padding-bottom: 30px;
   font-size: 2rem;
 }
 
 h2 {
-<<<<<<< HEAD
-  font-family: "Playfair Display", serif;
-<<<<<<< HEAD
-=======
   font-family: 'Bodoni Moda', serif;
   font-weight: 800;
->>>>>>> 3ead31e (added video and fixed testimonials layout for responsive design)
   color: #c6b7ff;
-=======
-  color: #58a4b0;
->>>>>>> aaa46d3 (initial commit)
   padding-bottom: 30px;
   font-size: 1.5rem;
 }
 
-<<<<<<< HEAD
 h2 a {
   color: #f0f1f3;
   transition: all 0.3s;
@@ -312,28 +133,7 @@ h2 a {
 }
 
 h2 a:hover {
-<<<<<<< HEAD
-<<<<<<< HEAD
   color: #c6b7ff;
-=======
-  color: #ccc;
-}
-
-.cta-button {
-  text-decoration: none;
-  color: #d8dbe2;
-  background-color: #1b1b1e;
-  border-radius: 5px;
-  padding: 10px 20px;
-  transition: all 0.3s;
-}
-
-.cta-button:hover {
-  background-color: #373f51;
->>>>>>> 01f0e08 (added new translation sections)
-=======
-  color: #c6b7ff;
->>>>>>> 027300f (small style adjustments)
 }
 
 h3 {
@@ -374,48 +174,15 @@ h3 {
   .translation-button {
     margin-left:0px !important;
     margin-right:0px !important;
-<<<<<<< HEAD
-<<<<<<< HEAD
     border:none !important;
   }
   .translation-button:hover {
     background-color:#333333 !important;
-<<<<<<< HEAD
-=======
-    border: 1px solid;
-=======
-    border:none !important;
->>>>>>> 406340c (Changed font)
-  }
-  .translation-button:hover {
-    background-color:#000 !important;
-    color:#c6b7ff !important;
-<<<<<<< HEAD
-    border: 1px solid;
->>>>>>> b760b5f (new navbar style)
-=======
->>>>>>> 406340c (Changed font)
-=======
->>>>>>> 027300f (small style adjustments)
   }
 }
 
 .translation-button:hover {
   background-color:#333333;
-<<<<<<< HEAD
-}
-
-/* lessons */
-
-#lessons-paragraph ul {
-  list-style-type: decimal;
-  padding-left: 20px;
-}
-
-#lessons-paragraph li {
-  margin: 10px 0;
-=======
->>>>>>> 027300f (small style adjustments)
 }
 
 /* lessons */
@@ -450,29 +217,8 @@ h3 {
   .navbar-logo {
     transition: all 0.3s;
     text-transform: uppercase;
-<<<<<<< HEAD
-<<<<<<< HEAD
     font-family: 'VVDS london oatmeal';
-<<<<<<< HEAD
-=======
-    font-family: 'vvds_london_oatmealsans';
-<<<<<<< HEAD
->>>>>>> 42b3831 (fixed font issue)
     font-size: 1.7rem;
-=======
-    font-size: 1rem;
->>>>>>> f124291 (font fix)
-=======
-    font-family: 'VVDS london oatmeal';
-<<<<<<< HEAD
-    font-size: 1.7rem;
->>>>>>> 1d07f5e (font fix for mobile)
-=======
-    font-size: 2rem;
->>>>>>> e44197a (font)
-=======
-    font-size: 1.7rem;
->>>>>>> c40f0a8 (changed text)
   }
 
   .navbar-logo a {
@@ -555,15 +301,7 @@ h3 {
   .navbar-logo {
     transition: all 0.3s;
     text-transform: uppercase;
-<<<<<<< HEAD
-<<<<<<< HEAD
     font-family: 'VVDS london oatmeal';
-=======
-    font-family: 'vvds_london_oatmealsans';
->>>>>>> 42b3831 (fixed font issue)
-=======
-    font-family: 'VVDS london oatmeal';
->>>>>>> 1d07f5e (font fix for mobile)
     font-size: 1.7rem;
   }
 
@@ -611,401 +349,15 @@ h3 {
 
 /* Styles for the active class (darker navbar) */
 .navbar.active {
-<<<<<<< HEAD
-<<<<<<< HEAD
   z-index: 1000;
   background-color: rgba(3, 3, 3, 0.7);
-=======
-  background-color: rgba(0, 0, 0, 0.8);
->>>>>>> 935139d (Added dark navbar background effect)
-=======
-  z-index: 1000;
-<<<<<<< HEAD
-  background-color: rgba(0, 0, 0, 0.7);
->>>>>>> 3043e13 (navbar style adjustments)
-=======
-  background-color: rgba(3, 3, 3, 0.7);
->>>>>>> 027300f (small style adjustments)
   transition: all 0.3s;
 }
 
 .navbar.active-bg {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  background-color: rgba(3, 3, 3, 0.7);
-=======
-h3 {
-  font-family: "Playfair Display", serif;
-  color: #c6b7ff;
-  font-size: 1rem;
-=======
-  background-color: rgba(3, 3, 3, 0.7);
->>>>>>> 027300f (small style adjustments)
-}
-
-a {
-  text-decoration: none;
-  color: #c6b7ff;
-  transition: all 0.3s;
-}
-
-.cta-button {
-  text-decoration: none;
-  color: #d8dbe2;
-  background-color: #1b1b1e;
-  border-radius: 5px;
-  padding: 10px 20px;
-  transition: all 0.3s;
-}
-
-.cta-button:hover {
-  background-color: #373f51;
-}
-
-/* navigation */
-
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: transparent;
-  z-index: 1000;
-  transition: background 0.3s ease;
-  font-family: "Lato", sans-serif;
-}
-
-.navbar.active {
-  background: rgba(0, 0, 0, 0.8);
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  height: 60px;
-}
-
-.logo {
-  color: #d8dbe2;
-  transition: all 0.3s;
-  text-transform: uppercase;
-  font-family: "VVDS London Oatmeal";
-  font-size: 1.7rem;
-  top:50%;
-  left:50%;
-  justify-content: center;
-  justify-items: center;
-}
-
-.logo:hover {
-  color: #c6b7ff;
-}
-
-@media (max-width: 600px) {
-    .logo {
-        font-size: 1.5rem;
-    }
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-}
-
-.nav-links li {
-  margin-right: 20px;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: #d8dbe2;
-  font-weight: bold;
-  transition: all 0.3s;
-}
-
-.nav-links a:hover {
-  color: #c6b7ff;
-}
-
-.burger {
-  display: none;
-  cursor: pointer;
-  font-size: 24px;
-  color: #d8dbe2;
-}
-
-@media screen and (max-width: 768px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    background: transparent;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    left: 0;
-    line-height: 40px;
-    padding-bottom: 30px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-in-out;
-  }
-
-  .nav-links a {
-    color: #d8dbe2;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-
-  .nav-links.active {
-    display: flex;
-    max-height: 300px;
-  }
-
-  .nav-links.active-bg {
-    background: rgba(0, 0, 0, 0.8);
-  }
-
-  .burger {
-    display: block;
-  }
->>>>>>> aaa46d3 (initial commit)
-=======
-  background-color: rgba(0, 0, 0, 0.8);
->>>>>>> 935139d (Added dark navbar background effect)
-=======
-  background-color: rgba(0, 0, 0, 0.7);
->>>>>>> 3043e13 (navbar style adjustments)
-}
-<<<<<<< HEAD
-
-/* about section */
-
-.about-section {
-<<<<<<< HEAD
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.about-paragraph {
-  flex: 1;
-  text-align: justify;
-}
-
-.profile-video {
-  flex: 1;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.profile-video video {
-  padding-left: 80px;
-  width: 100%;
-  height: auto;
-  margin: 0;
-  align-self: center;
-}
-
-/* mobile */
-@media (max-width: 600px) {
-  .about-section {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .about-paragraph {
-    margin-top:20px;
-    order: 2;
-  }
-  
-  .profile-video {
-    margin-top:20px;
-    width:100%;
-    order: 1;
-  }
-  
-  .profile-video video {
-    padding-left: 0px;
-    margin: auto 0;
-    align-self: center;
-  }
-}
-
-/* Middle-sized devices like iPads */
-@media (min-width: 601px) and (max-width: 1024px) {
-    .about-section {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .about-section h1 {
-      display:block;
-    }
-  
-    .about-paragraph {
-      margin-top:20px;
-      order: 2;
-    }
-    
-    .profile-video {
-      margin-top:20px;
-      width:100%;
-      order: 1;
-    }
-    
-    .profile-video video {
-      padding-left: 0px;
-      margin: auto 0;
-      align-self: center;
-    }
-  
-    #hidden {
-      display:none;
-    }
-  }
-
-/* audio player */
-
-#music-player {
-  width: 100%;
-  margin: 0 auto;
-  padding: 20px;
   background-color: rgba(3, 3, 3, 0.7);
 }
 
-<<<<<<< HEAD
-audio {
-  display: none; /* Hide the default audio element */
-}
-
-#playlist {
-  list-style: none;
-  padding: 0;
-  text-align: left;
-}
-
-#playlist li {
-  cursor: pointer;
-  margin: 5px 0;
-  padding: 5px;
-  background-color: transparent;
-}
-
-#playlist li:not(:last-child) {
-border-bottom: 1px solid #ccc;
-}
-
-#playlist li.active {
-font-weight: 600;
-color: #f0f1f3;
-}
-
-#controls {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-}
-
-#music-player button {
-  color: #333;
-  border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  margin: 0 10px;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
-#music-player button:hover {
-  background-color: #c6b7ff;
-}
-
-/* testimonials */
-
-.testimonials {
-  text-align: center;
-  justify-content: center;
-  margin: 0 auto;
-  width: 100%;
-  background-color: #333;
-}
-
-.testimonial {
-  width:80%;
-  padding: 20px;
-  margin: 10px;
-  border-radius: 5px;
-  margin: 0 auto;
-}
-
-#testimonial-text-1, #testimonial-text-2, #testimonial-text-3 {
-  font-style:oblique !important;
-}
-
-#testimonial-name-1, #testimonial-name-2, #testimonial-name-3 {
-  font-weight: bold !important;
-}
-
-@media (max-width: 600px) {
-  .testimonials {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-
-  .testimonial {
-    text-align: center;
-    margin: 10px;
-    padding: 20px;
-    border-radius: 5px;
-  }
-}
-
-=======
-    display: flex;
-    flex-direction: row;
-}
-
-#audio-player {
-    /* background-image: url("header-image2.jpg"); */
-    background-size: cover;
-    background-position: center;
-    height:300px;
-    width:300px;
-    /* filter: grayscale(100%); */
-  }
-
-.about-paragraph {
-    padding:100px;
-    flex: 1;
-}
-
-@media (max-width: 600px) {
-    .about-section {
-        flex-direction: column;
-    }
-
-    .profile-image {
-        margin: 0 auto 20px;
-    }
-
-    .about-paragraph {
-        padding:0px;
-    }
-}
->>>>>>> aaa46d3 (initial commit)
-=======
->>>>>>> 01f0e08 (added new translation sections)
-=======
 /* about section */
 
 .about-section {
@@ -1140,92 +492,6 @@ color: #f0f1f3;
     }
   }
 
-<<<<<<< HEAD
->>>>>>> 7765e28 (added bio video)
-/* contact  */
-
-.contact-form-container {
-  background-color: transparent;
-}
-
-.contact-form label {
-  display: block;
-  margin-top: 10px;
-  color: #d8dbe2;
-}
-
-.contact-form input,
-.contact-form textarea {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  background-color: rgba(3, 3, 3, 0.7);
-=======
-  background-color: transparent;
->>>>>>> aaa46d3 (initial commit)
-=======
-  background-color: rgba(3, 3, 3, 0.7);
->>>>>>> 027300f (small style adjustments)
-  color: #d8dbe2;
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  border: 1px solid #333;
-=======
-  border: 1px solid #58a4b0;
->>>>>>> aaa46d3 (initial commit)
-=======
-  border: 1px solid #333;
->>>>>>> 027300f (small style adjustments)
-  border-radius: 5px;
-}
-
-.contact-form button {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  background-color: #333;
-=======
-  background-color: #373f51;
->>>>>>> aaa46d3 (initial commit)
-=======
-  background-color: #333;
->>>>>>> 44366b9 (changed the font)
-  color: #d8dbe2;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin-top: 10px;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
-.contact-form button:hover {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  color:#d8dbe2;
-  background-color: #c6b7ff;
-  transition: all 0.3s;
-}
-
-
-/* footer */
-
-=======
-  background-color: #58a4b0;
-  transition: background-color 0.3s;
-=======
-  color:#d8dbe2;
-  background-color: #c6b7ff;
-  transition: all 0.3s;
->>>>>>> 027300f (small style adjustments)
-}
-
-<<<<<<< HEAD
->>>>>>> aaa46d3 (initial commit)
-=======
-=======
->>>>>>> 40361c2 (Added testimonials section)
 /* audio player */
 
 #music-player {
@@ -1369,7 +635,6 @@ color: #f0f1f3;
 
 /* footer */
 
->>>>>>> 01f0e08 (added new translation sections)
 footer {
   text-align: center;
   background-color: #333;
@@ -1384,7 +649,6 @@ footer i {
 }
 
 footer i:hover {
-<<<<<<< HEAD
   color: #f0f1f3;
 }
 
@@ -1398,11 +662,6 @@ footer a:hover {
   text-decoration: none;
   color: #f0f1f3;
   transition: all 0.3s;
-=======
-  font-size: 24px;
-  margin: 20px;
-  color: #58a4b0;
->>>>>>> aaa46d3 (initial commit)
 }
 
 @media (max-width: 768px) {
@@ -1426,76 +685,7 @@ footer a:hover {
         margin: 0px;
         padding: 10px;
       }
-<<<<<<< HEAD
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    }
->>>>>>> aaa46d3 (initial commit)
-=======
-
-/* audio player */
-
-#music-player {
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #000;
-}
-
-audio {
-    display: none; /* Hide the default audio element */
-}
-
-#playlist {
-    list-style: none;
-    padding: 0;
-    text-align: left;
-}
-
-#playlist li {
-    cursor: pointer;
-    margin: 5px 0;
-    padding: 5px;
-    background-color: transparent;
-}
-
-#playlist li:not(:last-child) {
-  border-bottom: 1px solid #ccc;
-}
-
-#playlist li.active {
-  font-weight: 600;
-  color: #fff;
-}
-
-#controls {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-}
-
-#music-player button {
-    color: #000;
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    margin: 0 10px;
-    cursor: pointer;
-    transition: all 0.3s;
-}
-
-#music-player button:hover {
-    background-color: #c6b7ff;
-}
->>>>>>> 77051e8 (cleaned the CSS)
-=======
->>>>>>> 01f0e08 (added new translation sections)
-=======
 
 
 /* lessons section */
@@ -1664,9 +854,4 @@ audio {
       bottom: 0;
       margin-bottom: 20px;
     }
-<<<<<<< HEAD
   }
->>>>>>> 039e4da (added testimonials)
-=======
-  }
->>>>>>> 5d5d40b (http.server>)
