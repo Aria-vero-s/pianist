@@ -110,6 +110,14 @@ header {
   height: 100vh;
 }
 
+/* mobile */
+@media (max-width: 600px) {
+  header {
+    padding: 0px;
+    background-color: #1e1e1e;
+  }
+}
+
 h1 {
   font-family: 'Bodoni Moda', serif;
   font-weight: 800;
@@ -360,6 +368,18 @@ h3 {
 
 /* about section */
 
+#about {
+  margin-top:80px;
+}
+
+/* mobile */
+@media (max-width: 600px) {
+  #about {
+    margin-top:0px;
+    padding-top:0px;
+  }
+}
+
 .about-section {
   display: flex;
   flex-direction: row;
@@ -403,10 +423,10 @@ h3 {
     background-color: none;
     padding:0px;
     }
-    .profile-video {
+  .profile-video {
       justify-content: center;
       align-items: center;
-    }
+  }
   }
 
 /* Middle-sized devices like iPads */
