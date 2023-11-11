@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       navbar: {
         link1: "Home",
-        link2: "About",
+        link2: "Bio",
         link3: "Lessons",
         link4: "Contact",
       },
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       navbar: {
         link1: "Accueil",
-        link2: "À propos",
+        link2: "Bio",
         link3: "Cours",
         link4: "Contact",
       },
