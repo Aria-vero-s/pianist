@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       navbar: {
         link1: "Home",
-        link2: "Chi Siamo",
+        link2: "Bio",
         link3: "Lezioni",
         link4: "Contatti",
       },
