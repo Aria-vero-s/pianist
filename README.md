@@ -1,5 +1,5 @@
 # Pianist Portfolio Website
-![Pianist Portfolio Image](mockup.png "website mockup")
+![Pianist Portfolio Image](media/mockup.png "website mockup")
 
 Welcome to the README file for the Pianist Portfolio website. This single-page website showcases the information of a pianist in an elegant and functional design. The website is divided into four main sections: Header, About, Lessons, and Contact Form.
 
@@ -24,16 +24,16 @@ Welcome to the README file for the Pianist Portfolio website. This single-page w
 
 - **Transparent Background at the Top:** When the user is at the top of the page, the navbar has a completely transparent background. This adds a touch of elegance to the design.
 
-![Pianist Portfolio Image](navbar1.png "navbar")
+![Pianist Portfolio Image](media/navbar1.png "navbar")
 
 - **Semi-Transparent Dark Background on Scroll:** As the user scrolls down the page, the navbar transitions to a semi-transparent dark background. This subtle design change helps improve the navbar's visibility and ensures that navigation options remain accessible, especially against light content backgrounds.
 
-![Pianist Portfolio Image](navbar2.png "navbar")
+![Pianist Portfolio Image](media/navbar2.png "navbar")
 
 - The nabar is also responsive and adjusts to different screen sizes:
 
-![Pianist Portfolio Image](mobile-menu.png "mobile menu")
-![Pianist Portfolio Image](mobile-activemenu.png "mobile menu active")
+![Pianist Portfolio Image](media/mobile-menu.png "mobile menu")
+![Pianist Portfolio Image](media/mobile-activemenu.png "mobile menu active")
 
 - A full-page photograph of the pianist as the background.
 - Three buttons for translating the website into English, French, and Italian using JavaScript.
@@ -120,7 +120,7 @@ const translations = {
 ### Design
 - Dark theme with light purple highlights for an elegant and visually appealing look. The ```background-color: rgba(3, 3, 3, 0.7);``` found throughout the page mimics the reflection of the piano.
 
-![Color Palette](palette.png "color palette")
+![Color Palette](media/palette.png "color palette")
 ```
 - antiflash-white: #f0f1f3;
 - platinum: #d8dbe2;
